@@ -1,0 +1,410 @@
+date: Last updated 20 Oct 2024, 06:51:51
+profile_id: 780424
+profile_name: yonasuriv
+profile_system_owns: 21
+profile_user_owns: 25
+profile_user_bloods: 0
+profile_system_bloods: 0
+profile_team_id: 5579
+profile_team_name: TOPG
+profile_team_ranking: 444
+profile_team_avatar: https://labs.hackthebox.com/storage/teams/36f4d832825380f102846560a5104c90.jpg
+profile_respects: 0
+profile_rank: Pro Hacker
+profile_rank_id: 4
+profile_current_rank_progress: 0
+profile_next_rank: Elite Hacker
+profile_next_rank_points: 2.42
+profile_rank_ownership: 3.46
+profile_rank_requirement: 45
+profile_ranking: 887
+profile_avatar: https://labs.hackthebox.com/storage/avatars/f0147ca4b3abce7c3d0930fdfad174cc.png
+profile_timezone: Europe/Madrid
+profile_points: 2
+profile_country_name: Denmark
+profile_country_code: DK
+profile_university_name: Russian Technological University
+profile_github: https://github.com/yonasuriv
+profile_linkedin: https://linkedin.com/in/yonadirico
+profile_twitter: https://twitter.com/yonasuriv
+profile_machine_owns_solved: 21
+profile_machine_owns_total: 411
+profile_machine_attack_paths_Reconnaissance_solved: 21
+profile_machine_attack_paths_Reconnaissance_total: 210
+profile_machine_attack_paths_Reconnaissance_avg_user_solved: 42.76
+profile_machine_attack_paths_Injections_solved: 15
+profile_machine_attack_paths_Injections_total: 138
+profile_machine_attack_paths_Injections_avg_user_solved: 11.61
+profile_machine_attack_paths_Password Reuse_solved: 9
+profile_machine_attack_paths_Password Reuse_total: 117
+profile_machine_attack_paths_Password Reuse_avg_user_solved: 10.88
+profile_machine_attack_paths_Common Applications_solved: 9
+profile_machine_attack_paths_Common Applications_total: 79
+profile_machine_attack_paths_Common Applications_avg_user_solved: 11.36
+profile_machine_attack_paths_Software & OS exploitation_solved: 8
+profile_machine_attack_paths_Software & OS exploitation_total: 145
+profile_machine_attack_paths_Software & OS exploitation_avg_user_solved: 18.97
+profile_machine_attack_paths_Source Code Analysis_solved: 8
+profile_machine_attack_paths_Source Code Analysis_total: 111
+profile_machine_attack_paths_Source Code Analysis_avg_user_solved: 6.78
+profile_machine_attack_paths_Databases_solved: 7
+profile_machine_attack_paths_Databases_total: 57
+profile_machine_attack_paths_Databases_avg_user_solved: 10.21
+profile_machine_attack_paths_Password Cracking_solved: 7
+profile_machine_attack_paths_Password Cracking_total: 120
+profile_machine_attack_paths_Password Cracking_avg_user_solved: 12.14
+profile_machine_attack_paths_Configuration Analysis_solved: 7
+profile_machine_attack_paths_Configuration Analysis_total: 37
+profile_machine_attack_paths_Configuration Analysis_avg_user_solved: 3.29
+profile_machine_attack_paths_Fuzzing_solved: 6
+profile_machine_attack_paths_Fuzzing_total: 37
+profile_machine_attack_paths_Fuzzing_avg_user_solved: 2.86
+profile_operating_systems_0_name: Linux
+profile_operating_systems_0_completion_percentage: 7
+profile_operating_systems_0_owned_machines: 19
+profile_operating_systems_0_total_machines: 289
+profile_operating_systems_1_name: Windows
+profile_operating_systems_1_completion_percentage: 2
+profile_operating_systems_1_owned_machines: 2
+profile_operating_systems_1_total_machines: 108
+profile_operating_systems_2_name: OpenBSD
+profile_operating_systems_2_completion_percentage: 0
+profile_operating_systems_2_owned_machines: 0
+profile_operating_systems_2_total_machines: 4
+profile_operating_systems_3_name: FreeBSD
+profile_operating_systems_3_completion_percentage: 0
+profile_operating_systems_3_owned_machines: 0
+profile_operating_systems_3_total_machines: 3
+profile_operating_systems_4_name: Solaris
+profile_operating_systems_4_completion_percentage: 0
+profile_operating_systems_4_owned_machines: 0
+profile_operating_systems_4_total_machines: 1
+profile_operating_systems_5_name: Other
+profile_operating_systems_5_completion_percentage: 0
+profile_operating_systems_5_owned_machines: 0
+profile_operating_systems_5_total_machines: 5
+profile_operating_systems_6_name: Android
+profile_operating_systems_6_completion_percentage: 0
+profile_operating_systems_6_owned_machines: 0
+profile_operating_systems_6_total_machines: 1
+profile_solved_tasks: 0
+profile_challenge_owns_solved: 0
+profile_challenge_owns_total: 55
+profile_challenge_owns_percentage: 0
+profile_challenge_categories_0_name: DFIR
+profile_challenge_categories_0_owned_flags: 0
+profile_challenge_categories_0_total_flags: 35
+profile_challenge_categories_0_completion_percentage: 0
+profile_challenge_categories_0_avg_user_solved: 0.38
+profile_challenge_categories_1_name: Cloud
+profile_challenge_categories_1_owned_flags: 0
+profile_challenge_categories_1_total_flags: 3
+profile_challenge_categories_1_completion_percentage: 0
+profile_challenge_categories_1_avg_user_solved: 0.01
+profile_challenge_categories_2_name: Malware Analysis
+profile_challenge_categories_2_owned_flags: 0
+profile_challenge_categories_2_total_flags: 8
+profile_challenge_categories_2_completion_percentage: 0
+profile_challenge_categories_2_avg_user_solved: 0.04
+profile_challenge_categories_3_name: SOC
+profile_challenge_categories_3_owned_flags: 0
+profile_challenge_categories_3_total_flags: 3
+profile_challenge_categories_3_completion_percentage: 0
+profile_challenge_categories_3_avg_user_solved: 0.09
+profile_challenge_categories_4_name: Threat Intelligence
+profile_challenge_categories_4_owned_flags: 0
+profile_challenge_categories_4_total_flags: 1
+profile_challenge_categories_4_completion_percentage: 0
+profile_challenge_categories_4_avg_user_solved: 0.01
+profile_challenge_categories_5_name: Campaign
+profile_challenge_categories_5_owned_flags: 0
+profile_challenge_categories_5_total_flags: 5
+profile_challenge_categories_5_completion_percentage: 0
+profile_challenge_categories_5_avg_user_solved: 0.03
+profile_challenge_categories_6_name: Mobile
+profile_challenge_categories_6_owned_flags: 2
+profile_challenge_categories_6_total_flags: 18
+profile_challenge_categories_6_completion_percentage: 11
+profile_challenge_categories_6_avg_user_solved: 0.42
+profile_challenge_categories_7_name: OSINT
+profile_challenge_categories_7_owned_flags: 0
+profile_challenge_categories_7_total_flags: 5
+profile_challenge_categories_7_completion_percentage: 0
+profile_challenge_categories_7_avg_user_solved: 0.47
+profile_challenge_categories_8_name: Hardware
+profile_challenge_categories_8_owned_flags: 2
+profile_challenge_categories_8_total_flags: 40
+profile_challenge_categories_8_completion_percentage: 5
+profile_challenge_categories_8_avg_user_solved: 0.55
+profile_challenge_categories_9_name: GamePwn
+profile_challenge_categories_9_owned_flags: 1
+profile_challenge_categories_9_total_flags: 11
+profile_challenge_categories_9_completion_percentage: 9
+profile_challenge_categories_9_avg_user_solved: 0.16
+profile_challenge_categories_10_name: Blockchain
+profile_challenge_categories_10_owned_flags: 0
+profile_challenge_categories_10_total_flags: 16
+profile_challenge_categories_10_completion_percentage: 0
+profile_challenge_categories_10_avg_user_solved: 0.09
+profile_challenge_categories_11_name: AI - ML
+profile_challenge_categories_11_owned_flags: 0
+profile_challenge_categories_11_total_flags: 10
+profile_challenge_categories_11_completion_percentage: 0
+profile_challenge_categories_11_avg_user_solved: 0.04
+profile_challenge_difficulties_0_name: Very Easy
+profile_challenge_difficulties_0_owned_challenges: 0
+profile_challenge_difficulties_0_total_challenges: 9
+profile_challenge_difficulties_0_completion_percentage: 0
+profile_challenge_difficulties_1_name: Easy
+profile_challenge_difficulties_1_owned_challenges: 0
+profile_challenge_difficulties_1_total_challenges: 20
+profile_challenge_difficulties_1_completion_percentage: 0
+profile_challenge_difficulties_2_name: Medium
+profile_challenge_difficulties_2_owned_challenges: 0
+profile_challenge_difficulties_2_total_challenges: 14
+profile_challenge_difficulties_2_completion_percentage: 0
+profile_challenge_difficulties_3_name: Hard
+profile_challenge_difficulties_3_owned_challenges: 0
+profile_challenge_difficulties_3_total_challenges: 8
+profile_challenge_difficulties_3_completion_percentage: 0
+profile_challenge_difficulties_4_name: Insane
+profile_challenge_difficulties_4_owned_challenges: 0
+profile_challenge_difficulties_4_total_challenges: 4
+profile_challenge_difficulties_4_completion_percentage: 0
+profile_challenge_difficulties_5_name: hard
+profile_challenge_difficulties_5_owned_challenges: 0
+profile_challenge_difficulties_5_total_challenges: 1
+profile_challenge_difficulties_5_completion_percentage: 0
+profile_challenge_difficulties_6_name: Insane
+profile_challenge_difficulties_6_owned_challenges: 0
+profile_challenge_difficulties_6_total_challenges: 14
+profile_challenge_difficulties_6_completion_percentage: 0
+profile_fortresses_0_name: Jet
+profile_fortresses_0_avatar: https://labs.hackthebox.com/storage/companies/3.png
+profile_fortresses_0_completion_percentage: 9
+profile_fortresses_0_owned_flags: 1
+profile_fortresses_0_total_flags: 11
+profile_fortresses_1_name: Akerva
+profile_fortresses_1_avatar: https://labs.hackthebox.com/storage/companies/61.png
+profile_fortresses_1_completion_percentage: 0
+profile_fortresses_1_owned_flags: 0
+profile_fortresses_1_total_flags: 8
+profile_fortresses_2_name: Context
+profile_fortresses_2_avatar: https://labs.hackthebox.com/storage/companies/9.png
+profile_fortresses_2_completion_percentage: 0
+profile_fortresses_2_owned_flags: 0
+profile_fortresses_2_total_flags: 7
+profile_fortresses_3_name: Synacktiv
+profile_fortresses_3_avatar: https://labs.hackthebox.com/storage/companies/195.png
+profile_fortresses_3_completion_percentage: 0
+profile_fortresses_3_owned_flags: 0
+profile_fortresses_3_total_flags: 7
+profile_fortresses_4_name: Faraday
+profile_fortresses_4_avatar: https://labs.hackthebox.com/storage/companies/28.png
+profile_fortresses_4_completion_percentage: 0
+profile_fortresses_4_owned_flags: 0
+profile_fortresses_4_total_flags: 7
+profile_fortresses_5_name: AWS
+profile_fortresses_5_avatar: https://labs.hackthebox.com/storage/companies/206.png
+profile_fortresses_5_completion_percentage: 0
+profile_fortresses_5_owned_flags: 0
+profile_fortresses_5_total_flags: 10
+profile_endgames_0_name: RPG
+profile_endgames_0_completion_percentage: 0
+profile_endgames_0_owned_flags: 0
+profile_endgames_0_total_flags: 6
+profile_endgames_1_name: Ascension
+profile_endgames_1_completion_percentage: 0
+profile_endgames_1_owned_flags: 0
+profile_endgames_1_total_flags: 7
+profile_endgames_2_name: Odyssey
+profile_endgames_2_completion_percentage: 0
+profile_endgames_2_owned_flags: 0
+profile_endgames_2_total_flags: 7
+profile_endgames_3_name: Solar
+profile_endgames_3_completion_percentage: 0
+profile_endgames_3_owned_flags: 0
+profile_endgames_3_total_flags: 7
+profile_prolabs_0_name: RastaLabs
+profile_prolabs_0_completion_percentage: 0
+profile_prolabs_0_owned_flags: 0
+profile_prolabs_0_total_flags: 22
+profile_prolabs_0_total_machines: 15
+profile_prolabs_0_average_ratings: 4.71
+profile_prolabs_1_name: Offshore
+profile_prolabs_1_completion_percentage: 0
+profile_prolabs_1_owned_flags: 0
+profile_prolabs_1_total_flags: 38
+profile_prolabs_1_total_machines: 21
+profile_prolabs_1_average_ratings: 4.83
+profile_prolabs_2_name: Cybernetics
+profile_prolabs_2_completion_percentage: 0
+profile_prolabs_2_owned_flags: 0
+profile_prolabs_2_total_flags: 25
+profile_prolabs_2_total_machines: 28
+profile_prolabs_2_average_ratings: 4.7
+profile_prolabs_3_name: Dante
+profile_prolabs_3_completion_percentage: 0
+profile_prolabs_3_owned_flags: 0
+profile_prolabs_3_total_flags: 27
+profile_prolabs_3_total_machines: 14
+profile_prolabs_3_average_ratings: 4.7
+profile_prolabs_4_name: APTLabs
+profile_prolabs_4_completion_percentage: 0
+profile_prolabs_4_owned_flags: 0
+profile_prolabs_4_total_flags: 20
+profile_prolabs_4_total_machines: 18
+profile_prolabs_4_average_ratings: 4.94
+profile_prolabs_5_name: Zephyr
+profile_prolabs_5_completion_percentage: 0
+profile_prolabs_5_owned_flags: 0
+profile_prolabs_5_total_flags: 17
+profile_prolabs_5_total_machines: 17
+profile_prolabs_5_average_ratings: 4.55
+profile_prolabs_6_name: FullHouse
+profile_prolabs_6_completion_percentage: 0
+profile_prolabs_6_owned_flags: 0
+profile_prolabs_6_total_flags: 7
+profile_prolabs_6_total_machines: 4
+profile_prolabs_6_average_ratings: 4.5
+profile_prolabs_7_name: Alchemy
+profile_prolabs_7_completion_percentage: 0
+profile_prolabs_7_owned_flags: 0
+profile_prolabs_7_total_flags: 21
+profile_prolabs_7_total_machines: 16
+profile_prolabs_7_average_ratings: 5
+profile_prolabs_8_name: Xen
+profile_prolabs_8_completion_percentage: 0
+profile_prolabs_8_owned_flags: 0
+profile_prolabs_8_total_flags: 6
+profile_prolabs_8_total_machines: 6
+profile_prolabs_8_average_ratings: 5
+profile_prolabs_9_name: P.O.O.
+profile_prolabs_9_completion_percentage: 0
+profile_prolabs_9_owned_flags: 0
+profile_prolabs_9_total_flags: 5
+profile_prolabs_9_total_machines: 2
+profile_prolabs_9_average_ratings: 4.67
+profile_prolabs_10_name: Hades
+profile_prolabs_10_completion_percentage: 0
+profile_prolabs_10_owned_flags: 0
+profile_prolabs_10_total_flags: 7
+profile_prolabs_10_total_machines: 3
+profile_prolabs_10_average_ratings: null
+team_id: 5579
+team_name: TOPG
+team_points: 2
+team_motto: 1%
+team_description: null
+team_country_name: Unknown
+team_country_code: null
+team_avatar_url: https://labs.hackthebox.com/storage/teams/36f4d832825380f102846560a5104c90.jpg
+team_cover_image_url: null
+team_twitter: null
+team_facebook: null
+team_discord: null
+team_public: true
+team_can_delete_avatar: true
+team_captain_id: 780424
+team_captain_name: yonasuriv
+team_machine_owns_solved: 25
+team_machine_owns_total: 410
+team_machine_attack_paths_Reconnaissance_name: Reconnaissance
+team_machine_attack_paths_Reconnaissance_solved: 21
+team_machine_attack_paths_Reconnaissance_total: 210
+team_machine_attack_paths_Reconnaissance_avg_teams_solved: 0.15067545085512743
+team_machine_attack_paths_Configuration Analysis_name: Configuration Analysis
+team_machine_attack_paths_Configuration Analysis_solved: 7
+team_machine_attack_paths_Configuration Analysis_total: 37
+team_machine_attack_paths_Configuration Analysis_avg_teams_solved: 0.10684551590920127
+team_machine_attack_paths_Fuzzing_name: Fuzzing
+team_machine_attack_paths_Fuzzing_solved: 6
+team_machine_attack_paths_Fuzzing_total: 37
+team_machine_attack_paths_Fuzzing_avg_teams_solved: 0.10714767472603368
+team_machine_attack_paths_Web Site Structure Discovery_name: Web Site Structure Discovery
+team_machine_attack_paths_Web Site Structure Discovery_solved: 5
+team_machine_attack_paths_Web Site Structure Discovery_total: 111
+team_machine_attack_paths_Web Site Structure Discovery_avg_teams_solved: 0.1396441360506044
+team_machine_attack_paths_Binary Analysis_name: Binary Analysis
+team_machine_attack_paths_Binary Analysis_solved: 1
+team_machine_attack_paths_Binary Analysis_total: 20
+team_machine_attack_paths_Binary Analysis_avg_teams_solved: 0.06227789978039529
+team_machine_attack_paths_Exploit Development_name: Exploit Development
+team_machine_attack_paths_Exploit Development_solved: 1
+team_machine_attack_paths_Exploit Development_total: 28
+team_machine_attack_paths_Exploit Development_avg_teams_solved: 0.06740010837635113
+team_machine_attack_paths_Exploit Modification_name: Exploit Modification
+team_machine_attack_paths_Exploit Modification_solved: 1
+team_machine_attack_paths_Exploit Modification_total: 16
+team_machine_attack_paths_Exploit Modification_avg_teams_solved: 0.09514124575763626
+team_machine_attack_paths_Impersonation_name: Impersonation
+team_machine_attack_paths_Impersonation_solved: 1
+team_machine_attack_paths_Impersonation_total: 14
+team_machine_attack_paths_Impersonation_avg_teams_solved: 0.12372016085332116
+team_machine_attack_paths_System Exploitation_name: System Exploitation
+team_machine_attack_paths_System Exploitation_solved: 1
+team_machine_attack_paths_System Exploitation_total: 12
+team_machine_attack_paths_System Exploitation_avg_teams_solved: 0.11075064883210221
+team_machine_attack_paths_User Enumeration_name: User Enumeration
+team_machine_attack_paths_User Enumeration_solved: 1
+team_machine_attack_paths_User Enumeration_total: 37
+team_machine_attack_paths_User Enumeration_avg_teams_solved: 0.14211716208122677
+team_status: true
+team_data_0_id: 1
+team_data_0_name: Reversing
+team_data_0_team_percentage: 2.6
+team_data_0_all_teams_avg_percentage: 7.31
+team_data_1_id: 2
+team_data_1_name: Crypto
+team_data_1_team_percentage: 2.83
+team_data_1_all_teams_avg_percentage: 5
+team_data_2_id: 4
+team_data_2_name: Pwn
+team_data_2_team_percentage: 5.71
+team_data_2_all_teams_avg_percentage: 5.47
+team_data_3_id: 5
+team_data_3_name: Web
+team_data_3_team_percentage: 2.34
+team_data_3_all_teams_avg_percentage: 7.76
+team_data_4_id: 6
+team_data_4_name: Misc
+team_data_4_team_percentage: 2
+team_data_4_all_teams_avg_percentage: 13.06
+team_data_5_id: 7
+team_data_5_name: Forensics
+team_data_5_team_percentage: 8.45
+team_data_5_all_teams_avg_percentage: 7.65
+team_data_6_id: 8
+team_data_6_name: Mobile
+team_data_6_team_percentage: 11.11
+team_data_6_all_teams_avg_percentage: 16.01
+team_data_7_id: 9
+team_data_7_name: OSINT
+team_data_7_team_percentage: 0
+team_data_7_all_teams_avg_percentage: 54.8
+team_data_8_id: 10
+team_data_8_name: Hardware
+team_data_8_team_percentage: 5
+team_data_8_all_teams_avg_percentage: 9.93
+team_data_9_id: 11
+team_data_9_name: GamePwn
+team_data_9_team_percentage: 9.09
+team_data_9_all_teams_avg_percentage: 20.35
+team_data_rank: 310
+team_data_points: 2
+team_data_points_for_next_bracket: 45
+team_data_current_bracket: 401-500
+team_data_next_bracket: 301-400
+team_data_date: '2023-11-04'
+team_data_rank_chart_data_0: 368
+team_data_rank_chart_data_1: 428
+team_data_rank_chart_data_2: 456
+team_data_rank_chart_data_3: 462
+team_data_rank_chart_data_4: 455
+team_data_rank_chart_data_5: 417
+team_data_rank_chart_data_6: 446
+team_data_rank_chart_data_7: 448
+team_data_rank_chart_data_8: 448
+team_data_rank_chart_data_9: 454
+team_data_rank_chart_data_10: 432
+team_data_rank_chart_data_11: 444
