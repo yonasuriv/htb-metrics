@@ -1,0 +1,86 @@
+{
+    "profile": {
+        "solved_tasks": 0,
+        "challenge_owns": {
+            "solved": 0,
+            "total": 57,
+            "percentage": 0
+        },
+        "challenge_categories": [
+            {
+                "name": "DFIR",
+                "owned_flags": 0,
+                "total_flags": 37,
+                "completion_percentage": 0,
+                "avg_user_solved": 0.39
+            },
+            {
+                "name": "Cloud",
+                "owned_flags": 0,
+                "total_flags": 3,
+                "completion_percentage": 0,
+                "avg_user_solved": 0.01
+            },
+            {
+                "name": "Malware Analysis",
+                "owned_flags": 0,
+                "total_flags": 8,
+                "completion_percentage": 0,
+                "avg_user_solved": 0.04
+            },
+            {
+                "name": "SOC",
+                "owned_flags": 0,
+                "total_flags": 3,
+                "completion_percentage": 0,
+                "avg_user_solved": 0.09
+            },
+            {
+                "name": "Threat Intelligence",
+                "owned_flags": 0,
+                "total_flags": 1,
+                "completion_percentage": 0,
+                "avg_user_solved": 0.01
+            },
+            {
+                "name": "Campaign",
+                "owned_flags": 0,
+                "total_flags": 5,
+                "completion_percentage": 0,
+                "avg_user_solved": 0.03
+            }
+        ],
+        "challenge_difficulties": [
+            {
+                "name": "Very Easy",
+                "owned_challenges": 0,
+                "total_challenges": 9,
+                "completion_percentage": 0
+            },
+            {
+                "name": "Easy",
+                "owned_challenges": 0,
+                "total_challenges": 21,
+                "completion_percentage": 0
+            },
+            {
+                "name": "Medium",
+                "owned_challenges": 0,
+                "total_challenges": 15,
+                "completion_percentage": 0
+            },
+            {
+                "name": "Hard",
+                "owned_challenges": 0,
+                "total_challenges": 8,
+                "completion_percentage": 0
+            },
+            {
+                "name": "Insane",
+                "owned_challenges": 0,
+                "total_challenges": 4,
+                "completion_percentage": 0
+            }
+        ]
+    }
+}

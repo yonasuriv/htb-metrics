@@ -1,11 +1,5 @@
-@font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
-}
-
 :root {
+    font-family: neue-haas-unica, sans-serif !important;
     /* Colors */
     --red1: red;
     --red2: #f53d3d;
@@ -22,27 +16,18 @@
 }
 
 .badge {
-    min-width: 220px;
-    min-height: 100px; /* Increased height to ensure there's space for both headers */
-    width: 220px;
+    min-width: 814px;
+    min-height: 270px;
+    width: 814px;
+    padding: 20px;
     height: auto;
     background-color: #111927;
-    border-radius: 4px;
+    border-radius: 28px;
     text-align: left;
-    padding: 2px;
-    gap: 5px;
+    gap: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Align content from the top */
-}
-
-
-
-.line {
-    line-height: 12px;
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 1px;
 }
 
 .header-container{
@@ -53,10 +38,11 @@
 }
 
 .header-avatar {
-    width: 40px;
-    height: 40px;
+    width: 178px;
+    height: 178px;
+    margin-right: 25px;
     border-radius: 50%;
-    border: 2px dashed var(--green2);
+    border: 5px dashed var(--green2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,55 +63,74 @@
     /* margin-bottom: 10px; */
 }
 
+.user_rank {
+    color: var(--green3);
+    font-size: 48px;
+    line-height: 52px;
+}
+
 .header-font {
-    font-family: "Roboto", monospace;
+
     color: #ffffff;
-    font-size: 13px;
+    font-size: 48px;
     font-weight: bold;
-    padding-left: 5px;
-    margin-top: 2px;
-    margin-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
     line-height: 12px;
     text-align: left;
 }
 
 .data-font {
-    font-family: "Roboto", monospace;
+
     color: #ffffff;
-    font-size: 10px;
-    padding-left: 5px;
-    /* margin-top: 2px; */
-    /* line-height: 1.5; */
+    font-size: 30px;
+    line-height: 0px;
+    padding-left: 45px;
 }
 
+.data-font p {
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+  }
+
 .footer-container {
-    line-height: 12px;
+    display: flex;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 3px;
+    padding-top: 12px;
     margin-top: 3px;
     margin-bottom: 3px;
     padding: 0px;
 }
 
 .footer-font {
-    font-family: "Roboto", monospace;
     color: #ffffff;
-    font-size: 5px;
+    font-size: 20px;
+    line-height: 34px; 
     color: var(--grey1);
     margin-top: 2px;
     padding-left: 10px;
-    /* text-align: center; */
-    line-height: 6px;
+    line-height: 34px;
 }
 
 .panel-classic {
     color: var(--grey1);
-    font-size: 12px;
+    font-size: 42px;
+}
+
+.panel-default {
+    padding-left: 45px;
 }
 
 .icon img {
-    width: 10px; 
-    height: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 37px;  
+    height: 37px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: px;
 }
 
 .footer-link {
@@ -144,97 +149,18 @@
     color: var(--green3);
 }
 
-.htb_rank {
-    color: var(--green3);
-    font-size: 11px;
+.htb_logo {
+    height: 20%;
+    width: 22%;
+    margin-top: 2px;
+    margin-left: 25px;
+    padding-bottom: 0px;
 }
 
-/* If the hidden class is set to "yes", the content is visible */
 .display {
     visibility: visible;
 }
 
-/* If the hidden class is set to "no", the content is hidden */
 .hidden {
     visibility: hidden;
-}
-
-/* SIZE UPDATE */
-
-.badge {
-    min-width: 814px;
-    min-height: 370px;
-    width: 814px;
-    padding: 20px; /* Increased padding for better layout */
-    gap: 30px; /* Increased gap for proper spacing */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border-radius: 28px;
-}
-
-.header-avatar {
-    width: 148px;
-    height: 148px;
-    margin-right: 25px; /* Increased margin to space out the avatar */
-}
-
-.header-font {
-    font-size: 48px;
-    line-height: 58px; /* Adjusted for better readability */
-    padding-left: 20px;
-}
-
-.data-font {
-    font-size: 30px;
-    line-height: 48px; /* Adjusted line height */
-    padding-top: 20px;
-    padding-left: 45px;
-}
-
-.footer-container {
-    display: flex;
-    font-size: 18px;
-    line-height: 28px; /* Increased line height for spacing */
-    padding-left: 3px; /* Adjusted padding */
-    padding-top: 28px;
-    
-}
-
-.footer-font {
-    /* display: flex; */
-    font-size: 15px;
-    line-height: 34px; 
-    /* padding-left: 10px;  */
-    /* padding-top: 28px; */
-    padding-left: 10px;
-}
-
-.htb_rank {
-    color: var(--blue2);
-    font-size: 41px;
-    line-height: 52px; /* Adjusted line height */
-}
-
-.htb_logo {
-    height: 25%;
-    width: 25%;
-    padding-bottom: 15px;
-}
-
-.line {
-    line-height: 30px; /* Increased line height to avoid overlapping */
-    margin-bottom: 20px;
-}
-
-.panel-classic {
-    font-size: 42px;
-    /* margin-bottom: 10px; */
-}
-
-.icon img {
-    width: 37px;  /* Increased icon size to match zoom level */
-    height: 37px;
-    margin-left: 10px;
-    margin-right: 10px;
 }

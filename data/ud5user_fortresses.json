@@ -1,0 +1,48 @@
+{
+    "profile": {
+        "fortresses": [
+            {
+                "name": "Jet",
+                "avatar": "https://labs.hackthebox.com/storage/companies/3.png",
+                "completion_percentage": 9,
+                "owned_flags": 1,
+                "total_flags": 11
+            },
+            {
+                "name": "Akerva",
+                "avatar": "https://labs.hackthebox.com/storage/companies/61.png",
+                "completion_percentage": 0,
+                "owned_flags": 0,
+                "total_flags": 8
+            },
+            {
+                "name": "Context",
+                "avatar": "https://labs.hackthebox.com/storage/companies/9.png",
+                "completion_percentage": 0,
+                "owned_flags": 0,
+                "total_flags": 7
+            },
+            {
+                "name": "Synacktiv",
+                "avatar": "https://labs.hackthebox.com/storage/companies/195.png",
+                "completion_percentage": 0,
+                "owned_flags": 0,
+                "total_flags": 7
+            },
+            {
+                "name": "Faraday",
+                "avatar": "https://labs.hackthebox.com/storage/companies/28.png",
+                "completion_percentage": 0,
+                "owned_flags": 0,
+                "total_flags": 7
+            },
+            {
+                "name": "AWS",
+                "avatar": "https://labs.hackthebox.com/storage/companies/206.png",
+                "completion_percentage": 0,
+                "owned_flags": 0,
+                "total_flags": 10
+            }
+        ]
+    }
+}

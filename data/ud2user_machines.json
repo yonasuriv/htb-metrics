@@ -1,0 +1,60 @@
+{
+    "profile": {
+        "machine_owns": {
+            "solved": 21,
+            "total": 411
+        },
+        "machine_attack_paths": {
+            "Reconnaissance": {
+                "solved": 21,
+                "total": 210,
+                "avg_user_solved": 42.72
+            },
+            "Injections": {
+                "solved": 15,
+                "total": 138,
+                "avg_user_solved": 11.59
+            },
+            "Password Reuse": {
+                "solved": 9,
+                "total": 117,
+                "avg_user_solved": 10.86
+            },
+            "Common Applications": {
+                "solved": 9,
+                "total": 79,
+                "avg_user_solved": 11.33
+            },
+            "Software & OS exploitation": {
+                "solved": 8,
+                "total": 145,
+                "avg_user_solved": 18.92
+            },
+            "Source Code Analysis": {
+                "solved": 8,
+                "total": 111,
+                "avg_user_solved": 6.77
+            },
+            "Databases": {
+                "solved": 7,
+                "total": 57,
+                "avg_user_solved": 10.2
+            },
+            "Password Cracking": {
+                "solved": 7,
+                "total": 120,
+                "avg_user_solved": 12.13
+            },
+            "Configuration Analysis": {
+                "solved": 7,
+                "total": 37,
+                "avg_user_solved": 3.28
+            },
+            "Fuzzing": {
+                "solved": 6,
+                "total": 37,
+                "avg_user_solved": 2.86
+            }
+        }
+    }
+}

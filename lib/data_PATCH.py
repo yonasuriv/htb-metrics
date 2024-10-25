@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
+# ID 3 - data_PATCH.py
+
 import os
 import glob
-from datetime import datetime
+from datetime import datetime, timezone
 import re
-import config
 
-# ID 3
+# Get environment variables
+DATA_DIR = os.environ.get('DATA_DIR')
+DATA_EXT = os.environ.get('DATA_EXT')
+DATA_PATH = os.environ.get('DATA_PATH')
+DATA_FILE_YML = os.environ.get('DATA_FILE_YML')
 
 # Color codes for terminal output
 class Colors:
@@ -20,25 +25,25 @@ def print_green(text):
     print(f"{Colors.GREEN}{text}{Colors.RESET}")
 
 # Step 1: Find the file with the unique extension in the DATA_DIR
-def find_unique_file(DATA_DIR, DATA_EXT):
-    files = glob.glob(os.path.join(DATA_DIR, DATA_EXT))
-    if len(files) != 1:
-        print(f"Error: Expected one file, but found {len(files)}.")
-        exit(1)
-    return files[0]
+# def find_unique_file(DATA_DIR, DATA_EXT):
+#     files = glob.glob(os.path.join(DATA_DIR, DATA_EXT))
+#     if len(files) != 1:
+#         print(f"Error: Expected one file, but found {len(files)}.")
+#         exit(1)
+#     return files[0]
 
 # Step 2: Print the number of lines and characters in the file
-def print_file_stats(file_path):
-    with open(file_path, 'r') as file:
+def print_file_stats(DATA_PATH):
+    with open(DATA_PATH, 'r') as file:
         lines = file.readlines()
         num_lines = len(lines)
         num_chars = sum(len(line) for line in lines)
-        print(f"File '{file_path}' has {num_lines} lines and {num_chars} characters.")
+        print(f"The file {DATA_FILE_YML}' contains {num_lines} lines and {num_chars} characters.")
         return lines
 
 # Step 3: Append metadata at the beginning of the document
-def append_metadata(file_path, lines):
-    last_update = datetime.now().strftime('Last updated %d %b %Y, %H:%M:%S')
+def append_metadata(DATA_PATH, lines):
+    last_update = datetime.now(timezone.utc).strftime('%d %b %Y, %H:%M:%S (UTC%z)').replace('+0000', '+00:00')
     last_activity = None
     for line in lines:
         if 'user_profile_activity_1_date_diff' in line:
@@ -171,12 +176,12 @@ def report_changes(changes, initial_lines, initial_chars, final_lines, final_cha
     if not changes:
         print("No changes were made.")
     else:
-        print(f"{len(changes)} changes made:")
+        print(f"\nCleaning dataset..")
         for change in changes:
             line_num, old_value, new_value, action = change
-            print(f"Line {line_num}: {action} performed")
-            print_red(f"    OLD LINE: {old_value}")
-            print_green(f"    NEW LINE: {new_value}")
+            # print(f"Line {line_num}: {action} performed")
+            # print_red(f"    OLD LINE: {old_value}")
+            # print_green(f"    NEW LINE: {new_value}")
     
     # # Print initial file stats
     # print(f"\nInitial file statistics: {initial_lines} lines, {initial_chars} characters")
@@ -185,20 +190,21 @@ def report_changes(changes, initial_lines, initial_chars, final_lines, final_cha
     # Print the difference
     # print(f"Difference: {final_lines - initial_lines} lines, {final_chars - initial_chars} characters")
 
-    print(f"\nCleanning summary: {initial_lines}/{final_lines} lines (-{final_lines - initial_lines} lines of code), {initial_chars}/{final_chars} characters ({final_chars - initial_chars} characters)")
+    # print(f"\nCleanning summary: {initial_lines}/{final_lines} lines (-{final_lines - initial_lines} lines of code), {initial_chars}/{final_chars} characters ({final_chars - initial_chars} characters)")
+    print(f"\n {len(changes)} changes made. {final_chars - initial_chars} characters and {final_lines - initial_lines} lines of code were removed.")
     # print(f"\nDifference: {final_lines - initial_lines} lines of code less, {final_chars - initial_chars} characters.")
 
 # Main function to execute the steps
 def main():
-    file_path = find_unique_file(DATA_DIR, DATA_EXT)
+    # DATA_PATH = find_unique_file(DATA_DIR, DATA_EXT)
     
     # Capture initial file stats
-    lines = print_file_stats(file_path)
+    lines = print_file_stats(DATA_PATH)
     initial_lines = len(lines)
     initial_chars = sum(len(line) for line in lines)
     
     # Apply metadata update (append or update values)
-    lines = append_metadata(file_path, lines)  # Capture updated lines
+    lines = append_metadata(DATA_PATH, lines)  # Capture updated lines
     
     # Apply cleaning commands using the new format
     commands = [
@@ -211,13 +217,15 @@ def main():
         # '+v " /storage/" "https://labs.hackthebox.com"'   # Insert URL before "/storage/"
         # 
         
-        'silent -r "_thumb"',
-        'silent -rF "user_profile_sso_id"',
-        'silent -c "_attack_paths_" "ap_"',
-        'silent -c "user_profile_" "user_"',
-        'silent -c "operating_systems" "os"',
-        'silent -c "challenge_categories" "challenge_cat"',
-        'silent +v " /storage/" "https://labs.hackthebox.com"'
+        '-r "_thumb"',
+        '-rF "user_profile_sso_id"',
+        '-c "_attack_paths_" "ap_"',
+        '-c "user_profile_user_" "user_profile_"',
+        '-c "user_profile_" "user_"',
+        '-c "operating_systems" "os"',
+        '-c "challenge_categories" "challenge_cat"',
+        '-c "Window\'s Infinity" "Windows Infinity"',
+        '+v " /storage/" "https://labs.hackthebox.com"'
         
     ]
     lines, changes = clean_file(lines, commands)
@@ -230,7 +238,7 @@ def main():
     report_changes(changes, initial_lines, initial_chars, final_lines, final_chars)
 
     # Write the cleaned file back to disk
-    with open(file_path, 'w') as file:
+    with open(DATA_PATH, 'w') as file:
         file.writelines(lines)
 
 if __name__ == "__main__":

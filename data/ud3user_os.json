@@ -1,0 +1,48 @@
+{
+    "profile": {
+        "operating_systems": [
+            {
+                "name": "Linux",
+                "completion_percentage": 7,
+                "owned_machines": 19,
+                "total_machines": 289
+            },
+            {
+                "name": "Windows",
+                "completion_percentage": 2,
+                "owned_machines": 2,
+                "total_machines": 109
+            },
+            {
+                "name": "OpenBSD",
+                "completion_percentage": 0,
+                "owned_machines": 0,
+                "total_machines": 4
+            },
+            {
+                "name": "FreeBSD",
+                "completion_percentage": 0,
+                "owned_machines": 0,
+                "total_machines": 3
+            },
+            {
+                "name": "Solaris",
+                "completion_percentage": 0,
+                "owned_machines": 0,
+                "total_machines": 1
+            },
+            {
+                "name": "Other",
+                "completion_percentage": 0,
+                "owned_machines": 0,
+                "total_machines": 5
+            },
+            {
+                "name": "Android",
+                "completion_percentage": 0,
+                "owned_machines": 0,
+                "total_machines": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,1069 @@
+last_update: 25 Oct 2024, 02:55:46 (UTC+00:00)
+last_activity: 6 months ago
+user_id: 780424
+user_name: yonasuriv
+user_system_owns: 21
+user_owns: 25
+user_bloods: 0
+user_system_bloods: 0
+user_team_id: 5579
+user_team_name: TOPG
+user_team_ranking: 444
+user_team_avatar: https://labs.hackthebox.com/storage/teams/36f4d832825380f102846560a5104c90.jpg
+user_respects: 0
+user_rank: Pro Hacker
+user_rank_id: 4
+user_current_rank_progress: 0
+user_next_rank: Elite Hacker
+user_next_rank_points: 2.4219999999999997
+user_rank_ownership: 3.46
+user_rank_requirement: 45
+user_ranking: 882
+user_avatar: https://labs.hackthebox.com/storage/avatars/f0147ca4b3abce7c3d0930fdfad174cc.png
+user_timezone: Europe/Madrid
+user_points: 2
+user_country_name: Denmark
+user_country_code: DK
+user_university_name: Russian Technological University
+user_github: https://github.com/yonasuriv
+user_linkedin: https://linkedin.com/in/yonadirico
+user_twitter: https://twitter.com/yonasuriv
+user_machine_owns_solved: 21
+user_machine_owns_total: 411
+user_machineap_Reconnaissance_solved: 21
+user_machineap_Reconnaissance_total: 210
+user_machineap_Reconnaissance_avg_user_solved: 42.72
+user_machineap_Injections_solved: 15
+user_machineap_Injections_total: 138
+user_machineap_Injections_avg_user_solved: 11.59
+user_machineap_Password Reuse_solved: 9
+user_machineap_Password Reuse_total: 117
+user_machineap_Password Reuse_avg_user_solved: 10.86
+user_machineap_Common Applications_solved: 9
+user_machineap_Common Applications_total: 79
+user_machineap_Common Applications_avg_user_solved: 11.33
+user_machineap_Software & OS exploitation_solved: 8
+user_machineap_Software & OS exploitation_total: 145
+user_machineap_Software & OS exploitation_avg_user_solved: 18.92
+user_machineap_Source Code Analysis_solved: 8
+user_machineap_Source Code Analysis_total: 111
+user_machineap_Source Code Analysis_avg_user_solved: 6.77
+user_machineap_Databases_solved: 7
+user_machineap_Databases_total: 57
+user_machineap_Databases_avg_user_solved: 10.2
+user_machineap_Password Cracking_solved: 7
+user_machineap_Password Cracking_total: 120
+user_machineap_Password Cracking_avg_user_solved: 12.13
+user_machineap_Configuration Analysis_solved: 7
+user_machineap_Configuration Analysis_total: 37
+user_machineap_Configuration Analysis_avg_user_solved: 3.28
+user_machineap_Fuzzing_solved: 6
+user_machineap_Fuzzing_total: 37
+user_machineap_Fuzzing_avg_user_solved: 2.86
+user_os_0_name: Linux
+user_os_0_completion_percentage: 7
+user_os_0_owned_machines: 19
+user_os_0_total_machines: 289
+user_os_1_name: Windows
+user_os_1_completion_percentage: 2
+user_os_1_owned_machines: 2
+user_os_1_total_machines: 109
+user_os_2_name: OpenBSD
+user_os_2_completion_percentage: 0
+user_os_2_owned_machines: 0
+user_os_2_total_machines: 4
+user_os_3_name: FreeBSD
+user_os_3_completion_percentage: 0
+user_os_3_owned_machines: 0
+user_os_3_total_machines: 3
+user_os_4_name: Solaris
+user_os_4_completion_percentage: 0
+user_os_4_owned_machines: 0
+user_os_4_total_machines: 1
+user_os_5_name: Other
+user_os_5_completion_percentage: 0
+user_os_5_owned_machines: 0
+user_os_5_total_machines: 5
+user_os_6_name: Android
+user_os_6_completion_percentage: 0
+user_os_6_owned_machines: 0
+user_os_6_total_machines: 1
+user_solved_tasks: 0
+user_challenge_owns_solved: 0
+user_challenge_owns_total: 57
+user_challenge_owns_percentage: 0
+user_challenge_cat_0_name: DFIR
+user_challenge_cat_0_owned_flags: 0
+user_challenge_cat_0_total_flags: 37
+user_challenge_cat_0_completion_percentage: 0
+user_challenge_cat_0_avg_user_solved: 0.39
+user_challenge_cat_1_name: Cloud
+user_challenge_cat_1_owned_flags: 0
+user_challenge_cat_1_total_flags: 3
+user_challenge_cat_1_completion_percentage: 0
+user_challenge_cat_1_avg_user_solved: 0.01
+user_challenge_cat_2_name: Malware Analysis
+user_challenge_cat_2_owned_flags: 0
+user_challenge_cat_2_total_flags: 8
+user_challenge_cat_2_completion_percentage: 0
+user_challenge_cat_2_avg_user_solved: 0.04
+user_challenge_cat_3_name: SOC
+user_challenge_cat_3_owned_flags: 0
+user_challenge_cat_3_total_flags: 3
+user_challenge_cat_3_completion_percentage: 0
+user_challenge_cat_3_avg_user_solved: 0.09
+user_challenge_cat_4_name: Threat Intelligence
+user_challenge_cat_4_owned_flags: 0
+user_challenge_cat_4_total_flags: 1
+user_challenge_cat_4_completion_percentage: 0
+user_challenge_cat_4_avg_user_solved: 0.01
+user_challenge_cat_5_name: Campaign
+user_challenge_cat_5_owned_flags: 0
+user_challenge_cat_5_total_flags: 5
+user_challenge_cat_5_completion_percentage: 0
+user_challenge_cat_5_avg_user_solved: 0.03
+user_challenge_cat_6_name: Mobile
+user_challenge_cat_6_owned_flags: 2
+user_challenge_cat_6_total_flags: 18
+user_challenge_cat_6_completion_percentage: 11
+user_challenge_cat_6_avg_user_solved: 0.41
+user_challenge_cat_7_name: OSINT
+user_challenge_cat_7_owned_flags: 0
+user_challenge_cat_7_total_flags: 5
+user_challenge_cat_7_completion_percentage: 0
+user_challenge_cat_7_avg_user_solved: 0.46
+user_challenge_cat_8_name: Hardware
+user_challenge_cat_8_owned_flags: 2
+user_challenge_cat_8_total_flags: 40
+user_challenge_cat_8_completion_percentage: 5
+user_challenge_cat_8_avg_user_solved: 0.55
+user_challenge_cat_9_name: GamePwn
+user_challenge_cat_9_owned_flags: 1
+user_challenge_cat_9_total_flags: 11
+user_challenge_cat_9_completion_percentage: 9
+user_challenge_cat_9_avg_user_solved: 0.16
+user_challenge_cat_10_name: Blockchain
+user_challenge_cat_10_owned_flags: 0
+user_challenge_cat_10_total_flags: 16
+user_challenge_cat_10_completion_percentage: 0
+user_challenge_cat_10_avg_user_solved: 0.09
+user_challenge_cat_11_name: AI - ML
+user_challenge_cat_11_owned_flags: 0
+user_challenge_cat_11_total_flags: 10
+user_challenge_cat_11_completion_percentage: 0
+user_challenge_cat_11_avg_user_solved: 0.04
+user_challenge_difficulties_0_name: Very Easy
+user_challenge_difficulties_0_owned_challenges: 0
+user_challenge_difficulties_0_total_challenges: 9
+user_challenge_difficulties_0_completion_percentage: 0
+user_challenge_difficulties_1_name: Easy
+user_challenge_difficulties_1_owned_challenges: 0
+user_challenge_difficulties_1_total_challenges: 21
+user_challenge_difficulties_1_completion_percentage: 0
+user_challenge_difficulties_2_name: Medium
+user_challenge_difficulties_2_owned_challenges: 0
+user_challenge_difficulties_2_total_challenges: 15
+user_challenge_difficulties_2_completion_percentage: 0
+user_challenge_difficulties_3_name: Hard
+user_challenge_difficulties_3_owned_challenges: 0
+user_challenge_difficulties_3_total_challenges: 8
+user_challenge_difficulties_3_completion_percentage: 0
+user_challenge_difficulties_4_name: Insane
+user_challenge_difficulties_4_owned_challenges: 0
+user_challenge_difficulties_4_total_challenges: 4
+user_challenge_difficulties_4_completion_percentage: 0
+user_challenge_difficulties_5_name: hard
+user_challenge_difficulties_5_owned_challenges: 0
+user_challenge_difficulties_5_total_challenges: 1
+user_challenge_difficulties_5_completion_percentage: 0
+user_challenge_difficulties_6_name: Insane
+user_challenge_difficulties_6_owned_challenges: 0
+user_challenge_difficulties_6_total_challenges: 14
+user_challenge_difficulties_6_completion_percentage: 0
+user_fortresses_0_name: Jet
+user_fortresses_0_avatar: https://labs.hackthebox.com/storage/companies/3.png
+user_fortresses_0_completion_percentage: 9
+user_fortresses_0_owned_flags: 1
+user_fortresses_0_total_flags: 11
+user_fortresses_1_name: Akerva
+user_fortresses_1_avatar: https://labs.hackthebox.com/storage/companies/61.png
+user_fortresses_1_completion_percentage: 0
+user_fortresses_1_owned_flags: 0
+user_fortresses_1_total_flags: 8
+user_fortresses_2_name: Context
+user_fortresses_2_avatar: https://labs.hackthebox.com/storage/companies/9.png
+user_fortresses_2_completion_percentage: 0
+user_fortresses_2_owned_flags: 0
+user_fortresses_2_total_flags: 7
+user_fortresses_3_name: Synacktiv
+user_fortresses_3_avatar: https://labs.hackthebox.com/storage/companies/195.png
+user_fortresses_3_completion_percentage: 0
+user_fortresses_3_owned_flags: 0
+user_fortresses_3_total_flags: 7
+user_fortresses_4_name: Faraday
+user_fortresses_4_avatar: https://labs.hackthebox.com/storage/companies/28.png
+user_fortresses_4_completion_percentage: 0
+user_fortresses_4_owned_flags: 0
+user_fortresses_4_total_flags: 7
+user_fortresses_5_name: AWS
+user_fortresses_5_avatar: https://labs.hackthebox.com/storage/companies/206.png
+user_fortresses_5_completion_percentage: 0
+user_fortresses_5_owned_flags: 0
+user_fortresses_5_total_flags: 10
+user_endgames_0_name: RPG
+user_endgames_0_completion_percentage: 0
+user_endgames_0_owned_flags: 0
+user_endgames_0_total_flags: 6
+user_endgames_1_name: Ascension
+user_endgames_1_completion_percentage: 0
+user_endgames_1_owned_flags: 0
+user_endgames_1_total_flags: 7
+user_endgames_2_name: Odyssey
+user_endgames_2_completion_percentage: 0
+user_endgames_2_owned_flags: 0
+user_endgames_2_total_flags: 7
+user_endgames_3_name: Solar
+user_endgames_3_completion_percentage: 0
+user_endgames_3_owned_flags: 0
+user_endgames_3_total_flags: 7
+user_prolabs_0_name: RastaLabs
+user_prolabs_0_completion_percentage: 0
+user_prolabs_0_owned_flags: 0
+user_prolabs_0_total_flags: 22
+user_prolabs_0_total_machines: 15
+user_prolabs_0_average_ratings: 4.71
+user_prolabs_1_name: Offshore
+user_prolabs_1_completion_percentage: 0
+user_prolabs_1_owned_flags: 0
+user_prolabs_1_total_flags: 38
+user_prolabs_1_total_machines: 21
+user_prolabs_1_average_ratings: 4.83
+user_prolabs_2_name: Cybernetics
+user_prolabs_2_completion_percentage: 0
+user_prolabs_2_owned_flags: 0
+user_prolabs_2_total_flags: 25
+user_prolabs_2_total_machines: 28
+user_prolabs_2_average_ratings: 4.7
+user_prolabs_3_name: Dante
+user_prolabs_3_completion_percentage: 0
+user_prolabs_3_owned_flags: 0
+user_prolabs_3_total_flags: 27
+user_prolabs_3_total_machines: 14
+user_prolabs_3_average_ratings: 4.7
+user_prolabs_4_name: APTLabs
+user_prolabs_4_completion_percentage: 0
+user_prolabs_4_owned_flags: 0
+user_prolabs_4_total_flags: 20
+user_prolabs_4_total_machines: 18
+user_prolabs_4_average_ratings: 4.94
+user_prolabs_5_name: Zephyr
+user_prolabs_5_completion_percentage: 0
+user_prolabs_5_owned_flags: 0
+user_prolabs_5_total_flags: 17
+user_prolabs_5_total_machines: 17
+user_prolabs_5_average_ratings: 4.55
+user_prolabs_6_name: FullHouse
+user_prolabs_6_completion_percentage: 0
+user_prolabs_6_owned_flags: 0
+user_prolabs_6_total_flags: 7
+user_prolabs_6_total_machines: 4
+user_prolabs_6_average_ratings: 4.44
+user_prolabs_7_name: Alchemy
+user_prolabs_7_completion_percentage: 0
+user_prolabs_7_owned_flags: 0
+user_prolabs_7_total_flags: 21
+user_prolabs_7_total_machines: 16
+user_prolabs_7_average_ratings: 5
+user_prolabs_8_name: Xen
+user_prolabs_8_completion_percentage: 0
+user_prolabs_8_owned_flags: 0
+user_prolabs_8_total_flags: 6
+user_prolabs_8_total_machines: 6
+user_prolabs_8_average_ratings: 5
+user_prolabs_9_name: P.O.O.
+user_prolabs_9_completion_percentage: 0
+user_prolabs_9_owned_flags: 0
+user_prolabs_9_total_flags: 5
+user_prolabs_9_total_machines: 2
+user_prolabs_9_average_ratings: 4.67
+user_prolabs_10_name: Hades
+user_prolabs_10_completion_percentage: 0
+user_prolabs_10_owned_flags: 0
+user_prolabs_10_total_flags: 7
+user_prolabs_10_total_machines: 3
+user_prolabs_10_average_ratings: null
+user_activity_0_date: '2024-04-18T01:16:59.000000Z'
+user_activity_0_date_diff: 6 months ago
+user_activity_0_object_type: machine
+user_activity_0_type: user
+user_activity_0_first_blood: false
+user_activity_0_id: 580
+user_activity_0_name: Surveillance
+user_activity_0_points: 0
+user_activity_0_machine_avatar: https://labs.hackthebox.com/storage/avatars/d2ddffcb2eced6a4d5486dc99d440d1a.png
+user_activity_1_date: '2024-04-18T01:08:54.000000Z'
+user_activity_1_date_diff: 6 months ago
+user_activity_1_object_type: machine
+user_activity_1_type: root
+user_activity_1_first_blood: false
+user_activity_1_id: 590
+user_activity_1_name: Perfection
+user_activity_1_points: 0
+user_activity_1_machine_avatar: https://labs.hackthebox.com/storage/avatars/57fc0f58916cb3ed8e793db071769d70.png
+user_activity_2_date: '2024-04-18T00:52:22.000000Z'
+user_activity_2_date_diff: 6 months ago
+user_activity_2_object_type: machine
+user_activity_2_type: user
+user_activity_2_first_blood: false
+user_activity_2_id: 590
+user_activity_2_name: Perfection
+user_activity_2_points: 0
+user_activity_2_machine_avatar: https://labs.hackthebox.com/storage/avatars/57fc0f58916cb3ed8e793db071769d70.png
+user_activity_3_date: '2024-04-17T02:25:48.000000Z'
+user_activity_3_date_diff: 6 months ago
+user_activity_3_object_type: machine
+user_activity_3_type: root
+user_activity_3_first_blood: false
+user_activity_3_id: 594
+user_activity_3_name: Headless
+user_activity_3_points: 0
+user_activity_3_machine_avatar: https://labs.hackthebox.com/storage/avatars/26e076db204a74b99390e586d7ebcf8c.png
+user_activity_4_date: '2024-04-17T02:14:18.000000Z'
+user_activity_4_date_diff: 6 months ago
+user_activity_4_object_type: machine
+user_activity_4_type: user
+user_activity_4_first_blood: false
+user_activity_4_id: 594
+user_activity_4_name: Headless
+user_activity_4_points: 0
+user_activity_4_machine_avatar: https://labs.hackthebox.com/storage/avatars/26e076db204a74b99390e586d7ebcf8c.png
+user_activity_5_date: '2023-08-22T11:14:24.000000Z'
+user_activity_5_date_diff: 1 year ago
+user_activity_5_object_type: challenge
+user_activity_5_type: challenge
+user_activity_5_first_blood: false
+user_activity_5_id: 291
+user_activity_5_name: Red Failure
+user_activity_5_points: 3
+user_activity_5_challenge_category: Forensics
+user_activity_6_date: '2023-08-22T10:40:59.000000Z'
+user_activity_6_date_diff: 1 year ago
+user_activity_6_object_type: machine
+user_activity_6_type: user
+user_activity_6_first_blood: false
+user_activity_6_id: 555
+user_activity_6_name: Download
+user_activity_6_points: 0
+user_activity_6_machine_avatar: https://labs.hackthebox.com/storage/avatars/524874d3b6fc2574ee2f6293f2bff5de.png
+user_activity_7_date: '2023-08-16T04:05:02.000000Z'
+user_activity_7_date_diff: 1 year ago
+user_activity_7_object_type: machine
+user_activity_7_type: root
+user_activity_7_first_blood: false
+user_activity_7_id: 556
+user_activity_7_name: Keeper
+user_activity_7_points: 0
+user_activity_7_machine_avatar: https://labs.hackthebox.com/storage/avatars/b56a5742b99e2568fa167765b1323370.png
+user_activity_8_date: '2023-08-16T03:37:00.000000Z'
+user_activity_8_date_diff: 1 year ago
+user_activity_8_object_type: machine
+user_activity_8_type: user
+user_activity_8_first_blood: false
+user_activity_8_id: 556
+user_activity_8_name: Keeper
+user_activity_8_points: 0
+user_activity_8_machine_avatar: https://labs.hackthebox.com/storage/avatars/b56a5742b99e2568fa167765b1323370.png
+user_activity_9_date: '2023-08-03T13:23:01.000000Z'
+user_activity_9_date_diff: 1 year ago
+user_activity_9_object_type: challenge
+user_activity_9_type: challenge
+user_activity_9_first_blood: false
+user_activity_9_id: 153
+user_activity_9_name: Phonebook
+user_activity_9_points: 0
+user_activity_9_challenge_category: Web
+user_activity_10_date: '2023-08-03T13:20:14.000000Z'
+user_activity_10_date_diff: 1 year ago
+user_activity_10_object_type: challenge
+user_activity_10_type: challenge
+user_activity_10_first_blood: false
+user_activity_10_id: 142
+user_activity_10_name: LostKey
+user_activity_10_points: 7
+user_activity_10_challenge_category: Crypto
+user_activity_11_date: '2023-08-03T13:17:25.000000Z'
+user_activity_11_date_diff: 1 year ago
+user_activity_11_object_type: challenge
+user_activity_11_type: challenge
+user_activity_11_first_blood: false
+user_activity_11_id: 141
+user_activity_11_name: Windows Infinity Edge
+user_activity_11_points: 7
+user_activity_11_challenge_category: Forensics
+user_activity_12_date: '2023-08-03T13:13:15.000000Z'
+user_activity_12_date_diff: 1 year ago
+user_activity_12_object_type: challenge
+user_activity_12_type: challenge
+user_activity_12_first_blood: false
+user_activity_12_id: 132
+user_activity_12_name: Mission Pinpossible
+user_activity_12_points: 3
+user_activity_12_challenge_category: Hardware
+user_activity_13_date: '2023-08-03T13:12:16.000000Z'
+user_activity_13_date_diff: 1 year ago
+user_activity_13_object_type: challenge
+user_activity_13_type: challenge
+user_activity_13_first_blood: false
+user_activity_13_id: 124
+user_activity_13_name: Flippin Bank
+user_activity_13_points: 0
+user_activity_13_challenge_category: Crypto
+user_activity_14_date: '2023-08-03T13:11:29.000000Z'
+user_activity_14_date_diff: 1 year ago
+user_activity_14_object_type: challenge
+user_activity_14_type: challenge
+user_activity_14_first_blood: false
+user_activity_14_id: 122
+user_activity_14_name: Nostalgia
+user_activity_14_points: 4
+user_activity_14_challenge_category: GamePwn
+user_activity_15_date: '2023-08-03T13:10:17.000000Z'
+user_activity_15_date_diff: 1 year ago
+user_activity_15_object_type: challenge
+user_activity_15_type: challenge
+user_activity_15_first_blood: false
+user_activity_15_id: 120
+user_activity_15_name: oBfsC4t10n2
+user_activity_15_points: 7
+user_activity_15_challenge_category: Forensics
+user_activity_16_date: '2023-08-03T12:56:25.000000Z'
+user_activity_16_date_diff: 1 year ago
+user_activity_16_object_type: challenge
+user_activity_16_type: challenge
+user_activity_16_first_blood: false
+user_activity_16_id: 39
+user_activity_16_name: Reminiscent
+user_activity_16_points: 3
+user_activity_16_challenge_category: Forensics
+user_activity_17_date: '2023-08-03T12:55:25.000000Z'
+user_activity_17_date_diff: 1 year ago
+user_activity_17_object_type: challenge
+user_activity_17_type: challenge
+user_activity_17_first_blood: false
+user_activity_17_id: 26
+user_activity_17_name: Impossible Password
+user_activity_17_points: 0
+user_activity_17_challenge_category: Reversing
+user_activity_18_date: '2023-08-03T12:54:05.000000Z'
+user_activity_18_date_diff: 1 year ago
+user_activity_18_object_type: challenge
+user_activity_18_type: challenge
+user_activity_18_first_blood: false
+user_activity_18_id: 4
+user_activity_18_name: Bombs Landed
+user_activity_18_points: 0
+user_activity_18_challenge_category: Reversing
+user_activity_19_date: '2023-07-28T03:14:17.000000Z'
+user_activity_19_date_diff: 1 year ago
+user_activity_19_object_type: machine
+user_activity_19_type: root
+user_activity_19_first_blood: false
+user_activity_19_id: 538
+user_activity_19_name: Mailroom
+user_activity_19_points: 0
+user_activity_19_machine_avatar: https://labs.hackthebox.com/storage/avatars/2d055b1ccac1cebea1cb624e77ab4ded.png
+user_activity_20_date: '2023-07-28T03:04:58.000000Z'
+user_activity_20_date_diff: 1 year ago
+user_activity_20_object_type: machine
+user_activity_20_type: user
+user_activity_20_first_blood: false
+user_activity_20_id: 538
+user_activity_20_name: Mailroom
+user_activity_20_points: 0
+user_activity_20_machine_avatar: https://labs.hackthebox.com/storage/avatars/2d055b1ccac1cebea1cb624e77ab4ded.png
+user_activity_21_date: '2023-07-19T04:15:09.000000Z'
+user_activity_21_date_diff: 1 year ago
+user_activity_21_object_type: machine
+user_activity_21_type: root
+user_activity_21_first_blood: false
+user_activity_21_id: 553
+user_activity_21_name: Authority
+user_activity_21_points: 0
+user_activity_21_machine_avatar: https://labs.hackthebox.com/storage/avatars/e6257bbacb2ddd56f5703bb61eadd8cb.png
+user_activity_22_date: '2023-07-17T06:30:54.000000Z'
+user_activity_22_date_diff: 1 year ago
+user_activity_22_object_type: machine
+user_activity_22_type: user
+user_activity_22_first_blood: false
+user_activity_22_id: 553
+user_activity_22_name: Authority
+user_activity_22_points: 0
+user_activity_22_machine_avatar: https://labs.hackthebox.com/storage/avatars/e6257bbacb2ddd56f5703bb61eadd8cb.png
+user_activity_23_date: '2023-07-10T14:11:10.000000Z'
+user_activity_23_date_diff: 1 year ago
+user_activity_23_object_type: machine
+user_activity_23_type: root
+user_activity_23_first_blood: false
+user_activity_23_id: 551
+user_activity_23_name: Sau
+user_activity_23_points: 0
+user_activity_23_machine_avatar: https://labs.hackthebox.com/storage/avatars/1ea2980b9dc2d11cf6a3f82f10ba8702.png
+user_activity_24_date: '2023-07-10T14:07:06.000000Z'
+user_activity_24_date_diff: 1 year ago
+user_activity_24_object_type: machine
+user_activity_24_type: user
+user_activity_24_first_blood: false
+user_activity_24_id: 551
+user_activity_24_name: Sau
+user_activity_24_points: 0
+user_activity_24_machine_avatar: https://labs.hackthebox.com/storage/avatars/1ea2980b9dc2d11cf6a3f82f10ba8702.png
+user_activity_25_date: '2023-07-05T23:23:08.000000Z'
+user_activity_25_date_diff: 1 year ago
+user_activity_25_object_type: challenge
+user_activity_25_type: challenge
+user_activity_25_first_blood: false
+user_activity_25_id: 84
+user_activity_25_name: Obscure
+user_activity_25_points: 3
+user_activity_25_challenge_category: Forensics
+user_activity_26_date: '2023-07-05T23:21:12.000000Z'
+user_activity_26_date_diff: 1 year ago
+user_activity_26_object_type: challenge
+user_activity_26_type: challenge
+user_activity_26_first_blood: false
+user_activity_26_id: 59
+user_activity_26_name: Cryptohorrific
+user_activity_26_points: 4
+user_activity_26_challenge_category: Mobile
+user_activity_27_date: '2023-07-05T23:16:01.000000Z'
+user_activity_27_date_diff: 1 year ago
+user_activity_27_object_type: challenge
+user_activity_27_type: challenge
+user_activity_27_first_blood: false
+user_activity_27_id: 98
+user_activity_27_name: M0rsarchive
+user_activity_27_points: 0
+user_activity_27_challenge_category: Misc
+user_activity_28_date: '2023-07-05T23:05:48.000000Z'
+user_activity_28_date_diff: 1 year ago
+user_activity_28_object_type: challenge
+user_activity_28_type: challenge
+user_activity_28_first_blood: false
+user_activity_28_id: 87
+user_activity_28_name: Illumination
+user_activity_28_points: 0
+user_activity_28_challenge_category: Forensics
+user_activity_29_date: '2023-07-05T21:30:24.000000Z'
+user_activity_29_date_diff: 1 year ago
+user_activity_29_object_type: machine
+user_activity_29_type: root
+user_activity_29_first_blood: false
+user_activity_29_id: 545
+user_activity_29_name: Jupiter
+user_activity_29_points: 0
+user_activity_29_machine_avatar: https://labs.hackthebox.com/storage/avatars/a11b7f2db639a97bcece9b65a6c1409c.png
+user_activity_30_date: '2023-07-05T18:02:54.000000Z'
+user_activity_30_date_diff: 1 year ago
+user_activity_30_object_type: machine
+user_activity_30_type: user
+user_activity_30_first_blood: false
+user_activity_30_id: 545
+user_activity_30_name: Jupiter
+user_activity_30_points: 0
+user_activity_30_machine_avatar: https://labs.hackthebox.com/storage/avatars/a11b7f2db639a97bcece9b65a6c1409c.png
+user_activity_31_date: '2023-07-04T20:20:20.000000Z'
+user_activity_31_date_diff: 1 year ago
+user_activity_31_object_type: machine
+user_activity_31_type: root
+user_activity_31_first_blood: false
+user_activity_31_id: 540
+user_activity_31_name: OnlyForYou
+user_activity_31_points: 0
+user_activity_31_machine_avatar: https://labs.hackthebox.com/storage/avatars/5147467f5bb0d84eff614fd4ef2f7c23.png
+user_activity_32_date: '2023-07-04T18:24:56.000000Z'
+user_activity_32_date_diff: 1 year ago
+user_activity_32_object_type: machine
+user_activity_32_type: root
+user_activity_32_first_blood: false
+user_activity_32_id: 542
+user_activity_32_name: Format
+user_activity_32_points: 0
+user_activity_32_machine_avatar: https://labs.hackthebox.com/storage/avatars/acdbb2202a5db5ed5103524fb80cf9cd.png
+user_activity_33_date: '2023-07-04T18:22:36.000000Z'
+user_activity_33_date_diff: 1 year ago
+user_activity_33_object_type: machine
+user_activity_33_type: user
+user_activity_33_first_blood: false
+user_activity_33_id: 542
+user_activity_33_name: Format
+user_activity_33_points: 0
+user_activity_33_machine_avatar: https://labs.hackthebox.com/storage/avatars/acdbb2202a5db5ed5103524fb80cf9cd.png
+user_activity_34_date: '2023-07-04T18:04:23.000000Z'
+user_activity_34_date_diff: 1 year ago
+user_activity_34_object_type: machine
+user_activity_34_type: user
+user_activity_34_first_blood: false
+user_activity_34_id: 536
+user_activity_34_name: Coder
+user_activity_34_points: 0
+user_activity_34_machine_avatar: https://labs.hackthebox.com/storage/avatars/30fc6acef9d23aa9fd71277123c64f24.png
+user_activity_35_date: '2023-07-04T16:31:28.000000Z'
+user_activity_35_date_diff: 1 year ago
+user_activity_35_object_type: machine
+user_activity_35_type: user
+user_activity_35_first_blood: false
+user_activity_35_id: 540
+user_activity_35_name: OnlyForYou
+user_activity_35_points: 0
+user_activity_35_machine_avatar: https://labs.hackthebox.com/storage/avatars/5147467f5bb0d84eff614fd4ef2f7c23.png
+user_activity_36_date: '2023-07-04T12:36:20.000000Z'
+user_activity_36_date_diff: 1 year ago
+user_activity_36_object_type: machine
+user_activity_36_type: root
+user_activity_36_first_blood: false
+user_activity_36_id: 535
+user_activity_36_name: Socket
+user_activity_36_points: 0
+user_activity_36_machine_avatar: https://labs.hackthebox.com/storage/avatars/9a73cabc03399aaac0640a0148e3a371.png
+user_activity_37_date: '2023-07-04T12:32:14.000000Z'
+user_activity_37_date_diff: 1 year ago
+user_activity_37_object_type: machine
+user_activity_37_type: user
+user_activity_37_first_blood: false
+user_activity_37_id: 535
+user_activity_37_name: Socket
+user_activity_37_points: 0
+user_activity_37_machine_avatar: https://labs.hackthebox.com/storage/avatars/9a73cabc03399aaac0640a0148e3a371.png
+user_activity_38_date: '2023-07-04T11:15:47.000000Z'
+user_activity_38_date_diff: 1 year ago
+user_activity_38_object_type: machine
+user_activity_38_type: user
+user_activity_38_first_blood: false
+user_activity_38_id: 544
+user_activity_38_name: Bookworm
+user_activity_38_points: 0
+user_activity_38_machine_avatar: https://labs.hackthebox.com/storage/avatars/f0c89af6ee134e1b432d95e4528cf0cd.png
+user_activity_39_date: '2023-07-04T11:07:36.000000Z'
+user_activity_39_date_diff: 1 year ago
+user_activity_39_object_type: machine
+user_activity_39_type: root
+user_activity_39_first_blood: false
+user_activity_39_id: 532
+user_activity_39_name: Agile
+user_activity_39_points: 0
+user_activity_39_machine_avatar: https://labs.hackthebox.com/storage/avatars/8fa064016362fbfce91b5de54b7e7f7e.png
+user_activity_40_date: '2023-07-04T10:53:17.000000Z'
+user_activity_40_date_diff: 1 year ago
+user_activity_40_object_type: machine
+user_activity_40_type: user
+user_activity_40_first_blood: false
+user_activity_40_id: 532
+user_activity_40_name: Agile
+user_activity_40_points: 0
+user_activity_40_machine_avatar: https://labs.hackthebox.com/storage/avatars/8fa064016362fbfce91b5de54b7e7f7e.png
+user_activity_41_date: '2023-07-04T04:02:12.000000Z'
+user_activity_41_date_diff: 1 year ago
+user_activity_41_object_type: machine
+user_activity_41_type: root
+user_activity_41_first_blood: false
+user_activity_41_id: 549
+user_activity_41_name: Pilgrimage
+user_activity_41_points: 0
+user_activity_41_machine_avatar: https://labs.hackthebox.com/storage/avatars/33632db6c1f4323a58452d8fcfc7eee0.png
+user_activity_42_date: '2023-07-04T03:51:44.000000Z'
+user_activity_42_date_diff: 1 year ago
+user_activity_42_object_type: machine
+user_activity_42_type: user
+user_activity_42_first_blood: false
+user_activity_42_id: 549
+user_activity_42_name: Pilgrimage
+user_activity_42_points: 0
+user_activity_42_machine_avatar: https://labs.hackthebox.com/storage/avatars/33632db6c1f4323a58452d8fcfc7eee0.png
+user_activity_43_date: '2023-07-03T20:54:00.000000Z'
+user_activity_43_date_diff: 1 year ago
+user_activity_43_object_type: machine
+user_activity_43_type: root
+user_activity_43_first_blood: false
+user_activity_43_id: 548
+user_activity_43_name: Sandworm
+user_activity_43_points: 0
+user_activity_43_machine_avatar: https://labs.hackthebox.com/storage/avatars/93c53cc1fc0284e5d9d74a565a8b9bf0.png
+user_activity_44_date: '2023-07-03T19:06:41.000000Z'
+user_activity_44_date_diff: 1 year ago
+user_activity_44_object_type: machine
+user_activity_44_type: user
+user_activity_44_first_blood: false
+user_activity_44_id: 548
+user_activity_44_name: Sandworm
+user_activity_44_points: 0
+user_activity_44_machine_avatar: https://labs.hackthebox.com/storage/avatars/93c53cc1fc0284e5d9d74a565a8b9bf0.png
+user_activity_45_date: '2023-06-16T00:44:19.000000Z'
+user_activity_45_date_diff: 1 year ago
+user_activity_45_object_type: fortress
+user_activity_45_type: fortress
+user_activity_45_first_blood: false
+user_activity_45_id: 1
+user_activity_45_name: Jet.com
+user_activity_45_points: 5
+user_activity_45_flag_title: Connect
+user_activity_46_date: '2023-06-16T00:20:31.000000Z'
+user_activity_46_date_diff: 1 year ago
+user_activity_46_object_type: challenge
+user_activity_46_type: challenge
+user_activity_46_first_blood: false
+user_activity_46_id: 115
+user_activity_46_name: Cat
+user_activity_46_points: 1
+user_activity_46_challenge_category: Mobile
+user_activity_47_date: '2023-06-16T00:12:31.000000Z'
+user_activity_47_date_diff: 1 year ago
+user_activity_47_object_type: challenge
+user_activity_47_type: challenge
+user_activity_47_first_blood: false
+user_activity_47_id: 242
+user_activity_47_name: racecar
+user_activity_47_points: 0
+user_activity_47_challenge_category: Pwn
+user_activity_48_date: '2023-06-16T00:02:15.000000Z'
+user_activity_48_date_diff: 1 year ago
+user_activity_48_object_type: challenge
+user_activity_48_type: challenge
+user_activity_48_first_blood: false
+user_activity_48_id: 201
+user_activity_48_name: Bad grades
+user_activity_48_points: 3
+user_activity_48_challenge_category: Pwn
+user_activity_49_date: '2023-06-16T00:01:01.000000Z'
+user_activity_49_date_diff: 1 year ago
+user_activity_49_object_type: challenge
+user_activity_49_type: challenge
+user_activity_49_first_blood: false
+user_activity_49_id: 200
+user_activity_49_name: Restaurant
+user_activity_49_points: 2
+user_activity_49_challenge_category: Pwn
+user_activity_50_date: '2023-06-16T00:00:01.000000Z'
+user_activity_50_date_diff: 1 year ago
+user_activity_50_object_type: challenge
+user_activity_50_type: challenge
+user_activity_50_first_blood: false
+user_activity_50_id: 137
+user_activity_50_name: Sick ROP
+user_activity_50_points: 3
+user_activity_50_challenge_category: Pwn
+user_activity_51_date: '2023-06-15T23:58:48.000000Z'
+user_activity_51_date_diff: 1 year ago
+user_activity_51_object_type: challenge
+user_activity_51_type: challenge
+user_activity_51_first_blood: false
+user_activity_51_id: 106
+user_activity_51_name: You know 0xDiablos
+user_activity_51_points: 2
+user_activity_51_challenge_category: Pwn
+user_activity_52_date: '2023-06-15T23:57:43.000000Z'
+user_activity_52_date_diff: 1 year ago
+user_activity_52_object_type: challenge
+user_activity_52_type: challenge
+user_activity_52_first_blood: false
+user_activity_52_id: 144
+user_activity_52_name: Hunting
+user_activity_52_points: 0
+user_activity_52_challenge_category: Pwn
+user_activity_53_date: '2023-06-15T23:46:09.000000Z'
+user_activity_53_date_diff: 1 year ago
+user_activity_53_object_type: challenge
+user_activity_53_type: challenge
+user_activity_53_first_blood: false
+user_activity_53_id: 152
+user_activity_53_name: Templated
+user_activity_53_points: 0
+user_activity_53_challenge_category: Web
+user_activity_54_date: '2023-06-15T23:45:21.000000Z'
+user_activity_54_date_diff: 1 year ago
+user_activity_54_object_type: challenge
+user_activity_54_type: challenge
+user_activity_54_first_blood: false
+user_activity_54_id: 224
+user_activity_54_name: Toxic
+user_activity_54_points: 0
+user_activity_54_challenge_category: Web
+user_activity_55_date: '2023-06-15T23:28:45.000000Z'
+user_activity_55_date_diff: 1 year ago
+user_activity_55_object_type: challenge
+user_activity_55_type: challenge
+user_activity_55_first_blood: false
+user_activity_55_id: 228
+user_activity_55_name: BabyEncryption
+user_activity_55_points: 1
+user_activity_55_challenge_category: Crypto
+user_activity_56_date: '2023-06-15T22:47:29.000000Z'
+user_activity_56_date_diff: 1 year ago
+user_activity_56_object_type: challenge
+user_activity_56_type: challenge
+user_activity_56_first_blood: false
+user_activity_56_id: 207
+user_activity_56_name: Debugging Interface
+user_activity_56_points: 1
+user_activity_56_challenge_category: Hardware
+user_activity_57_date: '2023-06-15T19:31:42.000000Z'
+user_activity_57_date_diff: 1 year ago
+user_activity_57_object_type: machine
+user_activity_57_type: root
+user_activity_57_first_blood: false
+user_activity_57_id: 519
+user_activity_57_name: Soccer
+user_activity_57_points: 0
+user_activity_57_machine_avatar: https://labs.hackthebox.com/storage/avatars/ca7f69a02eebf53deb3cd1611dd3f55e.png
+user_activity_58_date: '2023-06-15T19:16:42.000000Z'
+user_activity_58_date_diff: 1 year ago
+user_activity_58_object_type: machine
+user_activity_58_type: user
+user_activity_58_first_blood: false
+user_activity_58_id: 519
+user_activity_58_name: Soccer
+user_activity_58_points: 0
+user_activity_58_machine_avatar: https://labs.hackthebox.com/storage/avatars/ca7f69a02eebf53deb3cd1611dd3f55e.png
+user_activity_59_date: '2023-06-15T15:42:20.000000Z'
+user_activity_59_date_diff: 1 year ago
+user_activity_59_object_type: machine
+user_activity_59_type: root
+user_activity_59_first_blood: false
+user_activity_59_id: 546
+user_activity_59_name: Topology
+user_activity_59_points: 0
+user_activity_59_machine_avatar: https://labs.hackthebox.com/storage/avatars/cbfa26b4a4044677e93779a44bbd458f.png
+user_activity_60_date: '2023-06-15T15:39:44.000000Z'
+user_activity_60_date_diff: 1 year ago
+user_activity_60_object_type: machine
+user_activity_60_type: user
+user_activity_60_first_blood: false
+user_activity_60_id: 546
+user_activity_60_name: Topology
+user_activity_60_points: 0
+user_activity_60_machine_avatar: https://labs.hackthebox.com/storage/avatars/cbfa26b4a4044677e93779a44bbd458f.png
+user_activity_61_date: '2023-06-15T14:11:12.000000Z'
+user_activity_61_date_diff: 1 year ago
+user_activity_61_object_type: machine
+user_activity_61_type: root
+user_activity_61_first_blood: false
+user_activity_61_id: 523
+user_activity_61_name: Stocker
+user_activity_61_points: 0
+user_activity_61_machine_avatar: https://labs.hackthebox.com/storage/avatars/da052d0b0efd6dad222ba4a73d987c16.png
+user_activity_62_date: '2023-06-15T13:41:33.000000Z'
+user_activity_62_date_diff: 1 year ago
+user_activity_62_object_type: machine
+user_activity_62_type: user
+user_activity_62_first_blood: false
+user_activity_62_id: 523
+user_activity_62_name: Stocker
+user_activity_62_points: 0
+user_activity_62_machine_avatar: https://labs.hackthebox.com/storage/avatars/da052d0b0efd6dad222ba4a73d987c16.png
+user_activity_63_date: '2023-06-15T11:02:52.000000Z'
+user_activity_63_date_diff: 1 year ago
+user_activity_63_object_type: machine
+user_activity_63_type: root
+user_activity_63_first_blood: false
+user_activity_63_id: 533
+user_activity_63_name: Inject
+user_activity_63_points: 0
+user_activity_63_machine_avatar: https://labs.hackthebox.com/storage/avatars/285ba8819710b6ae1f67bc0e5914ffd9.png
+user_activity_64_date: '2023-06-15T10:58:23.000000Z'
+user_activity_64_date_diff: 1 year ago
+user_activity_64_object_type: machine
+user_activity_64_type: user
+user_activity_64_first_blood: false
+user_activity_64_id: 533
+user_activity_64_name: Inject
+user_activity_64_points: 0
+user_activity_64_machine_avatar: https://labs.hackthebox.com/storage/avatars/285ba8819710b6ae1f67bc0e5914ffd9.png
+user_activity_65_date: '2023-06-15T03:45:44.000000Z'
+user_activity_65_date_diff: 1 year ago
+user_activity_65_object_type: machine
+user_activity_65_type: root
+user_activity_65_first_blood: false
+user_activity_65_id: 543
+user_activity_65_name: PC
+user_activity_65_points: 0
+user_activity_65_machine_avatar: https://labs.hackthebox.com/storage/avatars/6d08e5f1919c77c0497213377f635e08.png
+user_activity_66_date: '2023-06-15T02:25:13.000000Z'
+user_activity_66_date_diff: 1 year ago
+user_activity_66_object_type: machine
+user_activity_66_type: user
+user_activity_66_first_blood: false
+user_activity_66_id: 543
+user_activity_66_name: PC
+user_activity_66_points: 0
+user_activity_66_machine_avatar: https://labs.hackthebox.com/storage/avatars/6d08e5f1919c77c0497213377f635e08.png
+user_activity_67_date: '2023-06-13T15:35:20.000000Z'
+user_activity_67_date_diff: 1 year ago
+user_activity_67_object_type: machine
+user_activity_67_type: root
+user_activity_67_first_blood: false
+user_activity_67_id: 531
+user_activity_67_name: Escape
+user_activity_67_points: 0
+user_activity_67_machine_avatar: https://labs.hackthebox.com/storage/avatars/80936664b3da83a92b28602e79e47d79.png
+user_activity_68_date: '2023-06-13T14:02:54.000000Z'
+user_activity_68_date_diff: 1 year ago
+user_activity_68_object_type: machine
+user_activity_68_type: user
+user_activity_68_first_blood: false
+user_activity_68_id: 531
+user_activity_68_name: Escape
+user_activity_68_points: 0
+user_activity_68_machine_avatar: https://labs.hackthebox.com/storage/avatars/80936664b3da83a92b28602e79e47d79.png
+user_activity_69_date: '2023-06-11T08:00:38.000000Z'
+user_activity_69_date_diff: 1 year ago
+user_activity_69_object_type: machine
+user_activity_69_type: root
+user_activity_69_first_blood: false
+user_activity_69_id: 537
+user_activity_69_name: Busqueda
+user_activity_69_points: 0
+user_activity_69_machine_avatar: https://labs.hackthebox.com/storage/avatars/a6942ab57b6a79f71240420442027334.png
+user_activity_70_date: '2023-06-11T04:36:17.000000Z'
+user_activity_70_date_diff: 1 year ago
+user_activity_70_object_type: machine
+user_activity_70_type: user
+user_activity_70_first_blood: false
+user_activity_70_id: 537
+user_activity_70_name: Busqueda
+user_activity_70_points: 0
+user_activity_70_machine_avatar: https://labs.hackthebox.com/storage/avatars/a6942ab57b6a79f71240420442027334.png
+user_activity_71_date: '2023-06-10T17:19:45.000000Z'
+user_activity_71_date_diff: 1 year ago
+user_activity_71_object_type: machine
+user_activity_71_type: root
+user_activity_71_first_blood: false
+user_activity_71_id: 539
+user_activity_71_name: MonitorsTwo
+user_activity_71_points: 0
+user_activity_71_machine_avatar: https://labs.hackthebox.com/storage/avatars/b55987f8ef9a42df2ad4b4c096e3824d.png
+user_activity_72_date: '2023-06-10T15:33:01.000000Z'
+user_activity_72_date_diff: 1 year ago
+user_activity_72_object_type: machine
+user_activity_72_type: user
+user_activity_72_first_blood: false
+user_activity_72_id: 539
+user_activity_72_name: MonitorsTwo
+user_activity_72_points: 0
+user_activity_72_machine_avatar: https://labs.hackthebox.com/storage/avatars/b55987f8ef9a42df2ad4b4c096e3824d.png
+team_id: 5579
+team_name: TOPG
+team_points: 2
+team_motto: 1%
+team_description: null
+team_country_name: Unknown
+team_country_code: null
+team_avatar_url: https://labs.hackthebox.com/storage/teams/36f4d832825380f102846560a5104c90.jpg
+team_cover_image_url: null
+team_twitter: null
+team_facebook: null
+team_discord: null
+team_public: true
+team_can_delete_avatar: true
+team_captain_id: 780424
+team_captain_name: yonasuriv
+team_captain_avatar: https://labs.hackthebox.com/storage/avatars/f0147ca4b3abce7c3d0930fdfad174cc.png
+team_status: true
+team_data_rank: 310
+team_data_points: 2
+team_data_points_for_next_bracket: 45
+team_data_current_bracket: 401-500
+team_data_next_bracket: 301-400
+team_data_date: '2023-11-04'
+team_data_rank_chart_data_0: 368
+team_data_rank_chart_data_1: 428
+team_data_rank_chart_data_2: 456
+team_data_rank_chart_data_3: 462
+team_data_rank_chart_data_4: 455
+team_data_rank_chart_data_5: 417
+team_data_rank_chart_data_6: 446
+team_data_rank_chart_data_7: 448
+team_data_rank_chart_data_8: 448
+team_data_rank_chart_data_9: 454
+team_data_rank_chart_data_10: 432
+team_data_rank_chart_data_11: 444
+team_machine_owns_solved: 25
+team_machine_owns_total: 411
+team_machineap_Reconnaissance_name: Reconnaissance
+team_machineap_Reconnaissance_solved: 21
+team_machineap_Reconnaissance_total: 210
+team_machineap_Reconnaissance_avg_teams_solved: 0.15035503351250912
+team_machineap_Configuration Analysis_name: Configuration Analysis
+team_machineap_Configuration Analysis_solved: 7
+team_machineap_Configuration Analysis_total: 37
+team_machineap_Configuration Analysis_avg_teams_solved: 0.10661766684064115
+team_machineap_Fuzzing_name: Fuzzing
+team_machineap_Fuzzing_solved: 6
+team_machineap_Fuzzing_total: 37
+team_machineap_Fuzzing_avg_teams_solved: 0.10682751236205347
+team_machineap_Web Site Structure Discovery_name: Web Site Structure Discovery
+team_machineap_Web Site Structure Discovery_solved: 5
+team_machineap_Web Site Structure Discovery_total: 111
+team_machineap_Web Site Structure Discovery_avg_teams_solved: 0.13936074238682242
+team_machineap_Binary Analysis_name: Binary Analysis
+team_machineap_Binary Analysis_solved: 1
+team_machineap_Binary Analysis_total: 20
+team_machineap_Binary Analysis_avg_teams_solved: 0.062014732231734024
+team_machineap_Exploit Development_name: Exploit Development
+team_machineap_Exploit Development_solved: 1
+team_machineap_Exploit Development_total: 28
+team_machineap_Exploit Development_avg_teams_solved: 0.06724069281305993
+team_machineap_Exploit Modification_name: Exploit Modification
+team_machineap_Exploit Modification_solved: 1
+team_machineap_Exploit Modification_total: 16
+team_machineap_Exploit Modification_avg_teams_solved: 0.09487607007764284
+team_machineap_Impersonation_name: Impersonation
+team_machineap_Impersonation_solved: 1
+team_machineap_Impersonation_total: 14
+team_machineap_Impersonation_avg_teams_solved: 0.12337533062199595
+team_machineap_System Exploitation_name: System Exploitation
+team_machineap_System Exploitation_solved: 1
+team_machineap_System Exploitation_total: 12
+team_machineap_System Exploitation_avg_teams_solved: 0.11050832835622802
+team_machineap_User Enumeration_name: User Enumeration
+team_machineap_User Enumeration_solved: 1
+team_machineap_User Enumeration_total: 37
+team_machineap_User Enumeration_avg_teams_solved: 0.14174257873242546
+team_data_0_id: 1
+team_data_0_name: Reversing
+team_data_0_team_percentage: 2.6
+team_data_0_all_teams_avg_percentage: 7.3
+team_data_1_id: 2
+team_data_1_name: Crypto
+team_data_1_team_percentage: 2.83
+team_data_1_all_teams_avg_percentage: 5.01
+team_data_2_id: 4
+team_data_2_name: Pwn
+team_data_2_team_percentage: 5.71
+team_data_2_all_teams_avg_percentage: 5.48
+team_data_3_id: 5
+team_data_3_name: Web
+team_data_3_team_percentage: 2.33
+team_data_3_all_teams_avg_percentage: 7.69
+team_data_4_id: 6
+team_data_4_name: Misc
+team_data_4_team_percentage: 2
+team_data_4_all_teams_avg_percentage: 13.05
+team_data_5_id: 7
+team_data_5_name: Forensics
+team_data_5_team_percentage: 8.45
+team_data_5_all_teams_avg_percentage: 7.65
+team_data_6_id: 8
+team_data_6_name: Mobile
+team_data_6_team_percentage: 11.11
+team_data_6_all_teams_avg_percentage: 16.03
+team_data_7_id: 9
+team_data_7_name: OSINT
+team_data_7_team_percentage: 0
+team_data_7_all_teams_avg_percentage: 54.7
+team_data_8_id: 10
+team_data_8_name: Hardware
+team_data_8_team_percentage: 5
+team_data_8_all_teams_avg_percentage: 9.88
+team_data_9_id: 11
+team_data_9_name: GamePwn
+team_data_9_team_percentage: 9.09
+team_data_9_all_teams_avg_percentage: 20.36

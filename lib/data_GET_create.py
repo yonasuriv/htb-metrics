@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
+# ID 2 - data_GET_create.py
+
 import json
 import yaml
 import os
 import re
 from datetime import datetime
-import config
 
-# ID 2
-
-print(f"\nGenerating dataset..")
+# Get environment variables
+DATA_FILE_YML = os.environ.get('DATA_FILE_YML')
+DATA_PATH = os.environ.get('DATA_PATH')
 
 # Constants
 BASE_URL = "https://labs.hackthebox.com"
+
+print(f"\nGenerating dataset..")
 
 def flatten_json(data, parent_key='', sep='_'):
     """
@@ -55,12 +58,12 @@ def read_json_files(directory):
     )
     return json_files
 
-def json_to_flat_yaml(data_file_yml):
+def json_to_flat_yaml(DATA_FILE_YML):
     # Directories to read JSON files from
     directories = ['data']
     
     # Clean (truncate) the output YAML file at the start
-    open(data_file_yml, 'w').close()
+    open(DATA_FILE_YML, 'w').close()
 
     # Dictionary to store the combined data
     combined_data = {}
@@ -102,12 +105,12 @@ def json_to_flat_yaml(data_file_yml):
                         print(f"Error processing JSON object in file {json_file}: {e}")
 
     # Convert the combined data to YAML format and write to the output file
-    with open(data_path, 'a') as f:  # Use 'a' to append in the correct order
+    with open(DATA_PATH, 'a') as f:  # Use 'a' to append in the correct order
         yaml.dump(combined_data, f, default_flow_style=False, sort_keys=False, allow_unicode=True)
 
 if __name__ == "__main__":
 
     # Call the conversion function for all JSON files in the specified directories
-    json_to_flat_yaml(data_path)
+    json_to_flat_yaml(DATA_PATH)
 
-    print(f"\nDataset with flattened structure generated successfully at {data_file_yml}.")
+    print(f"\nA dataset with a flattened structure has been successfully generated at {DATA_PATH}.")

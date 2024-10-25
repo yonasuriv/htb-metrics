@@ -1,0 +1,140 @@
+{
+    "profile": {
+        "solved_tasks": 0,
+        "challenge_owns": {
+            "solved": 26,
+            "total": 635,
+            "percentage": 4
+        },
+        "challenge_categories": [
+            {
+                "name": "Reversing",
+                "owned_flags": 2,
+                "total_flags": 77,
+                "completion_percentage": 3,
+                "avg_user_solved": 1.53
+            },
+            {
+                "name": "Crypto",
+                "owned_flags": 3,
+                "total_flags": 105,
+                "completion_percentage": 3,
+                "avg_user_solved": 1.35
+            },
+            {
+                "name": "Pwn",
+                "owned_flags": 6,
+                "total_flags": 105,
+                "completion_percentage": 6,
+                "avg_user_solved": 1.06
+            },
+            {
+                "name": "Web",
+                "owned_flags": 3,
+                "total_flags": 127,
+                "completion_percentage": 2,
+                "avg_user_solved": 3.3
+            },
+            {
+                "name": "Misc",
+                "owned_flags": 1,
+                "total_flags": 50,
+                "completion_percentage": 2,
+                "avg_user_solved": 1.4
+            },
+            {
+                "name": "Forensics",
+                "owned_flags": 6,
+                "total_flags": 71,
+                "completion_percentage": 8,
+                "avg_user_solved": 1.31
+            },
+            {
+                "name": "Mobile",
+                "owned_flags": 2,
+                "total_flags": 18,
+                "completion_percentage": 11,
+                "avg_user_solved": 0.41
+            },
+            {
+                "name": "OSINT",
+                "owned_flags": 0,
+                "total_flags": 5,
+                "completion_percentage": 0,
+                "avg_user_solved": 0.46
+            },
+            {
+                "name": "Hardware",
+                "owned_flags": 2,
+                "total_flags": 40,
+                "completion_percentage": 5,
+                "avg_user_solved": 0.55
+            },
+            {
+                "name": "GamePwn",
+                "owned_flags": 1,
+                "total_flags": 11,
+                "completion_percentage": 9,
+                "avg_user_solved": 0.16
+            },
+            {
+                "name": "Blockchain",
+                "owned_flags": 0,
+                "total_flags": 16,
+                "completion_percentage": 0,
+                "avg_user_solved": 0.09
+            },
+            {
+                "name": "AI - ML",
+                "owned_flags": 0,
+                "total_flags": 10,
+                "completion_percentage": 0,
+                "avg_user_solved": 0.04
+            }
+        ],
+        "challenge_difficulties": [
+            {
+                "name": "Very Easy",
+                "owned_challenges": 3,
+                "total_challenges": 59,
+                "completion_percentage": 5
+            },
+            {
+                "name": "Easy",
+                "owned_challenges": 15,
+                "total_challenges": 267,
+                "completion_percentage": 6
+            },
+            {
+                "name": "easy",
+                "owned_challenges": 1,
+                "total_challenges": 1,
+                "completion_percentage": 100
+            },
+            {
+                "name": "Medium",
+                "owned_challenges": 5,
+                "total_challenges": 216,
+                "completion_percentage": 2
+            },
+            {
+                "name": "Hard",
+                "owned_challenges": 2,
+                "total_challenges": 77,
+                "completion_percentage": 3
+            },
+            {
+                "name": "hard",
+                "owned_challenges": 0,
+                "total_challenges": 1,
+                "completion_percentage": 0
+            },
+            {
+                "name": "Insane",
+                "owned_challenges": 0,
+                "total_challenges": 14,
+                "completion_percentage": 0
+            }
+        ]
+    }
+}

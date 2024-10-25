@@ -1,18 +1,15 @@
 #!/usr/bin/env python3
+# ID 1 - data_GET_init.py
+
 import requests
 import json
 import os
 import shutil
 import sys
 
-# ID 1
-
-# Get the root folder (assuming the script is running from within the project directory)
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__))  # Root of the project
-DEST_PATH = os.path.join(ROOT_DIR, BADGE_FILE_HTML)    # Destination path in root
-
-# Copy TEMPLATE1 to ROOT_DIR as BADGE_FILE_HTML
-shutil.copy(TEMPLATE1, DEST_PATH)
+# Get environment variables
+DATA_DIR = os.environ.get('DATA_DIR')
+USER_ID = os.environ.get('USER_ID')
 
 # Constants
 API_URL = "https://labs.hackthebox.com/api/v4"
@@ -46,11 +43,12 @@ user_endpoints = {
 def user_fetch_data(url):
     """Fetch data from a given URL and return JSON response if successful."""
     response = requests.get(url, headers=headers)
+    
     if response.status_code == 200:
         return response.json()
     else:
-        print(f"Failed to retrieve data from {url}. Status code: {response.status_code}")
-        return None
+        print(f"Failed to retrieve data from {url}. Status code: {response.status_code} - The profile is private.")
+        sys.exit(1)  # Graceful exit with a status code indicating an error
 
 # Variable to track if any save operation fails
 user_save_failed = False
@@ -98,18 +96,25 @@ def check_team_in_profile():
             profile_data = json.load(file)
         
         # Navigate through the data and check if the team id is present
-        team_info = profile_data.get("profile", {}).get("team", {})
+        team_info = profile_data.get("profile", {}).get("team", None)
 
-        if "id" in team_info:
-            TEAM_ID = team_info['id']
+        # Safely handle the case where 'team' is not found
+        if team_info and isinstance(team_info, dict):
+            TEAM_ID = team_info.get('id', None)
+            if TEAM_ID:
+                print(f"\n Team ID found: {TEAM_ID}\n")
+            else:
+                print("Team ID not found in the team information.")
+        else:
+            print("Team information not found in the profile data.")
     else:
         print(f"{profile_file} not found.")
+
 
 # At the end of the script, call the function to check team info in profile_data.json
 check_team_in_profile()
 
 if TEAM_ID:
-
     # URLs to dynamically fetch data from
     team_endpoints = {
         "team": f"{API_URL}/public/team/info/{TEAM_ID}",
@@ -158,5 +163,10 @@ if TEAM_ID:
     for name, url in team_endpoints.items():
         team_process_and_save(name, url)
 
-    print(f"\nData files created successfully.")
+    print(f"\nTeam data files created successfully.")
+else:
+    print("No valid TEAM_ID found. Skipping team data fetch.")
+    sys.exit(0)
+
+    # print(f"\nData files created successfully.")
 

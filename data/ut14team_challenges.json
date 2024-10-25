@@ -1,0 +1,65 @@
+{
+    "status": true,
+    "data": [
+        {
+            "id": 1,
+            "name": "Reversing",
+            "team_percentage": 2.6,
+            "all_teams_avg_percentage": 7.3
+        },
+        {
+            "id": 2,
+            "name": "Crypto",
+            "team_percentage": 2.83,
+            "all_teams_avg_percentage": 5.01
+        },
+        {
+            "id": 4,
+            "name": "Pwn",
+            "team_percentage": 5.71,
+            "all_teams_avg_percentage": 5.48
+        },
+        {
+            "id": 5,
+            "name": "Web",
+            "team_percentage": 2.33,
+            "all_teams_avg_percentage": 7.69
+        },
+        {
+            "id": 6,
+            "name": "Misc",
+            "team_percentage": 2,
+            "all_teams_avg_percentage": 13.05
+        },
+        {
+            "id": 7,
+            "name": "Forensics",
+            "team_percentage": 8.45,
+            "all_teams_avg_percentage": 7.65
+        },
+        {
+            "id": 8,
+            "name": "Mobile",
+            "team_percentage": 11.11,
+            "all_teams_avg_percentage": 16.03
+        },
+        {
+            "id": 9,
+            "name": "OSINT",
+            "team_percentage": 0,
+            "all_teams_avg_percentage": 54.7
+        },
+        {
+            "id": 10,
+            "name": "Hardware",
+            "team_percentage": 5,
+            "all_teams_avg_percentage": 9.88
+        },
+        {
+            "id": 11,
+            "name": "GamePwn",
+            "team_percentage": 9.09,
+            "all_teams_avg_percentage": 20.36
+        }
+    ]
+}

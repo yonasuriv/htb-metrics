@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-import yaml
-import config
+# ID 4 - data_PUT.py
 
-# ID 4
+import yaml
+import os
+
+# Get environment variables
+DATA_FILE_YML = os.environ.get('DATA_FILE_YML')
+DATA_PATH = os.environ.get('DATA_PATH')
+DATA_FILE_JS_PATH = os.environ.get('DATA_FILE_JS_PATH')
 
 # Step 1: Read YAML file
 def load_yaml(file_path):
@@ -25,6 +30,6 @@ def generate_js_from_yaml(yaml_data, output_file):
 if __name__ == "__main__":
         
     yaml_data = load_yaml(DATA_PATH)
-    generate_js_from_yaml(yaml_data, DATA_FILE_JS)
+    generate_js_from_yaml(yaml_data, DATA_FILE_JS_PATH)
     
-    print(f"\nJavaScript file '{DATA_FILE_JS}' has been generated.")
+    print(f"\nJavaScript file '{DATA_FILE_JS_PATH}' has been generated.")
