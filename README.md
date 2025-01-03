@@ -29,13 +29,12 @@ Currently in the alpha stage. Keep an eye out for upcoming templates and updates
 
 ## ℹ️ Examples workflows
 
-<!--examples-->
 ```yaml
 name: Example
 uses: yonasuriv/htb-metrics@latest
 with:
   filename: htb-metrics.classic.png
   token: ${{ secrets.HTB-METRICS_TOKEN }}
-  base: header, repositories
+  userid: 000000
+  template: default
 ```
-<!--/examples-->
