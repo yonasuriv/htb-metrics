@@ -3,8 +3,8 @@
 
 import os
 import glob
-from datetime import datetime, timezone
 import re
+from datetime import datetime, timezone
 
 # Get environment variables
 DATA_DIR = os.environ.get('DATA_DIR')

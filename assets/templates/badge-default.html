@@ -6,127 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTB Metrics</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- <script src="assets/js/userdata.js" defer></script> -->
 </head>
+
+<!-- STLY SETTINGS START -->
 <style>
     :root {
         font-family: neue-haas-unica, sans-serif !important;
-        /* Colors */
-        --red1: red;
         --red2: #f53d3d;
         --red3: rgba(255, 37, 72, 0.1);
-        --blue1: #3498db;
+        --htb-blue: #3498db;
         --blue2: #56C0E0;
-        --blue-htb: #111927;
         --green1: #2ecc71;
-        --green-htb: #9cef00;
+        --htb-green: #9cef00;
         --green3: #9acc14;
         --orange1: #f7af3e;
-        --grey1: #a4b1cd;
-        --grey2: #353535;
-        --grey3: rgb(124, 124, 124);
-        --white1: #ffffff;
-        --white2: #f5f5f5;
-        --black1: #000000;
-        --badge-min-width: 900px;
-        --avatar-size: 200px; 
+        --htb-grey: #a4b1cd;
+        --white: #ffffff;
+        --black: #000000;
+        --htb-blue: #111927;
+        background-color: transparent;
+    }
 
-        --color-primary: var(--green-htb);
-        --color-secondary: var(--grey1);
-        --color-background: var(--blue-htb);
-        --color-mute: var(--grey3);
-        --color-htb-logo: var(--white2);
-        
+    html {
+        background-color: transparent;
     }
 
     body {
         background-image: none;
     }
 
-
     .badge {
-        min-width: var(--badge-min-width);
-        min-height: 270px;
-        padding: 20px;
+        padding: 15px;
+        width: 950px;
+        min-width: 800px;
         height: auto;
-        background-color: var(--color-background);
+        background-color: var(--htb-blue);
         border-radius: 28px;
-        text-align: center;
-        gap: 0px;
+        text-align: left;
+        gap: 30px;
         display: flex;
-        flex-direction: center;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: flex-start;
         box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.3);
     }
 
     .header-container {
         display: flex;
         align-items: center;
-        padding-top: 15px;
-        padding-left: 15px;
+        /* padding-top: 15px;
+        padding-left: 25px; */
+        padding: 15px;
     }
 
     .header-avatar {
-        width: var(--avatar-size);
-        /* 178 */
+        width: 178px;
         height: auto;
-        margin-right: 25px;
         border-radius: 50%;
-        border: 5px dashed var(--color-primary);
+        border: 5px dashed var(--htb-green);
+        margin-top: 2%;
+        margin-left: 25px;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        margin: 5px;
     }
 
     .header-avatar img {
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        /* Make the image circular */
     }
 
     .header-info {
+        display: inline;
         align-items: center;
-        justify-content: center;
-        padding-left: 50px;
-        /* margin-bottom: 10px; */
     }
 
-    .user_name {
-        color: var(--color-secondary);
-    }
-
-    .user_rank {
-        color: var(--color-primary);
-        text-transform: uppercase;
-        font-size: 38px;
-        line-height: 90px;
-    }
-
-    .global_rank {
-        text-transform: uppercase;
-        font-size: 27px;
-        margin-left: 160px;
-    }
-
-    .header-font {
-        color: var(--color-text);
+    .h1 {
+        color: var(--white);
         font-size: 48px;
         font-weight: bold;
-        padding-left: 20px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        line-height: 12px;
-        text-align: center;
+        padding-left: 60px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        /* line-height: 10px; */
+        text-align: left;
     }
 
     .data-font {
-        color: var(--color-text);
-        font-size: 55px;
+        color: var(--white);
+        font-size: 30px;
         line-height: 0px;
-        padding-left: 35px;
+        padding-left: 45px;
     }
 
     .data-font p {
@@ -135,90 +106,137 @@
         padding: 0;
     }
 
+    .panel-classic {
+        color: var(--htb-grey);
+        font-size: 42px;
+    }
+
+    .h2 {
+        padding-left: 100px;
+    }
+
+    .h3 {
+        padding-left: 55px;
+        display: none;
+    }
+
+    .h3 img {
+        width: 40px !important;
+    }
+
+    .icon img {
+        width: 37px;
+        height: 37px;
+        margin-left: 23px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
     .footer-container {
         display: flex;
         font-size: 18px;
         line-height: 28px;
         padding-left: 3px;
-        padding-top: 0px;
-        margin-top: 0px;
-        margin-bottom: 15px;
-        padding: 0px;
-        min-width: var(--badge-min-width);
-        align-items: center;
-
-    }
-
-    .footer-container-out {
-        display: flex;
-        font-size: 18px;
-        line-height: 28px;
-        padding-left: 3px;
-        padding-top: 20px;
-        margin-top: 5px;
+        padding-top: 9px;
+        margin-top: 3px;
         margin-bottom: 3px;
         padding: 0px;
-        width: var(--badge-min-width);
-        align-items: center;
-        justify-content: center;
+    }
+
+    .footer-outer {
+        font-size: 12px;
+        line-height: 34px;
+        padding-left: 45px;
+        line-height: 34px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
     }
 
     .footer-font {
-        font-size: 20px;
+        font-size: 12px;
         line-height: 34px;
-        color: var(--color-secondary);
-        padding-left: 10px;
-    }
-
-    .footer-out {
-        color: var(--color-mute);
-        font-size: 20px;
+        color: var(--htb-grey);
+        padding-left: 45px;
         line-height: 34px;
-        align-content: center;
-
-    }
-
-    .panel-classic {
-        font-size: 42px;
-        justify-content: center;
-    }
-
-    .panel-default {
-        justify-content: center;
-        display: flex;
-        align-items: center;
-    }
-
-    .icon img {
-        width: 35px;
-        height: auto;
-        margin-left: 20px;
-        margin-right: 15px;
-        margin-top: 0px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
     }
 
     .footer-link {
-        color: var(--color-primary);
+        color: var(--green3);
         font-size: 0.6em;
         text-decoration: none;
     }
 
     .footer-link:hover {
-        color: var(--color-primary);
+        color: var(--green3);
         font-size: 0.6em;
         text-decoration: underline;
     }
 
     .footer-link:visited {
-        color: var(--color-primary);
+        color: var(--green3);
+    }
+
+    .metrics-info {
+        color: #000000da;
+        font-size: 15px !important;
+        padding-left: 0px;
+        text-transform: uppercase;
+        text-decoration: none;
     }
 
     .htb_logo {
+        width: 23%;
+        margin-left: 22px;
+    }
+
+    .user_name {
+        color: var(--htb-grey);
+        font-size: 56px;
+        padding-left: 20px;
+    }
+
+    .user_rank {
+        color: var(--htb-green);
+        font-size: 40px;
+        line-height: 52px;
+        text-transform: uppercase;
+    }
+
+    .user_owns {
+        margin-left: 20px;
+    }
+
+    .system_owns {
+        margin-left: 20px;
+    }
+
+    .points {
+        margin-left: 20px;
+    }
+
+    .respects {
+        margin-left: 20px;
+    }
+
+    .globalrank {
+        margin-left: 50px;
+    }
+
+    .globalrank img {
+        width: 40px !important;
         height: auto;
-        width: var(--avatar-size);
-        margin-top: 2px;
-        margin-left: 25px;
-        padding-bottom: 0px;
+        margin-left: 40px;
+        margin-top: -2em;
+        margin-bottom: -10px;
+    }
+
+    .ranking {
+        color: var(--htb-grey);
+        font-size: 35px;
+        text-transform: uppercase;
+        padding-left: 45px;
     }
 
     .display {
@@ -229,159 +247,144 @@
         visibility: hidden;
     }
 </style>
+<!-- STYLE SETTINGS END -->
 
-<div>
+<body>
 
+    <!-- BODY-BADGE START -->
     <div class="badge">
 
+        <!-- HEADER-CONTAINER START -->
         <div class="header-container">
             <div class="header-avatar" display>
                 <img src="$user_avatar$" href=""
                     alt="Avatar">
             </div>
 
-            <!-- <div class="header-avatar" display>
-                <img class="user_avatar" alt="User Avatar">
-            </div> -->
-
-            <!-- HEADER -->
+            <!-- HEADER-INFO START -->
             <div class="header-info">
 
-                <p class="header-font" display>
+                <!-- H1 START -->
+                <p class="h1 line" display>
                     <span class="user_name">$user_name$</span>
                     <span class="user_rank">$user_rank$</span>
                 </p>
+                <!-- H1 START -->
 
-                <span display class="userflag icon">
-                    <img src="https://app.hackthebox.com/images/icons/ic-machines/ic-userflag.svg"><span
-                        class="panel-classic">$user_owns$</span></span>
-                </span>
+                <!-- H2 START -->
+                <div class="h2" display>
+                    <p class="line" display>
 
-                <span display class="rootflag icon">
-                    <img src="https://app.hackthebox.com/images/icons/ic-machines/ic-rootflag.svg"><span
-                        class="panel-classic"><span class="system_owns">$user_system_owns$</span></span>
-                </span>
+                        <span display class="userflag icon">
+                            <img src="https://app.hackthebox.com/images/icons/ic-machines/ic-userflag.svg"><span
+                                class="panel-classic"><span class="user_owns">$user_owns$</span></span>
+                        </span>
 
-                <span display class="points icon">
-                    <img src="https://app.hackthebox.com/images/icons/ic-other/ic-points.svg"><span
-                        class="panel-classic"><span class="points">$user_points$</span></span>
-                </span>
+                        <span display class="rootflag icon">
+                            <img src="https://app.hackthebox.com/images/icons/ic-machines/ic-rootflag.svg"><span
+                                class="panel-classic"><span class="system_owns">$user_system_owns$</span></span>
+                        </span>
 
-                <span display class="respect icon">
-                    <img src="https://app.hackthebox.com/images/icons/ic-profile/ic-respect.svg"
-                        style="height: 32px; width: 32px;"><span class="panel-classic"><span
-                            class="respects">$user_respects$</span></span>
-                </span>
+                        <span display class="points icon">
+                            <img src="https://app.hackthebox.com/images/icons/ic-other/ic-points.svg"><span
+                                class="panel-classic"><span class="points">$user_points$</span></span>
+                        </span>
 
-            </div>
+                        <span display class="respect icon">
+                            <img src="https://app.hackthebox.com/images/icons/ic-profile/ic-respect.svg"
+                                style="height: 35px; width: 35px;"><span class="panel-classic"><span
+                                    class="respects">$user_respects$</span></span>
+                        </span>
+                    </p>
 
-            <div class="header">
-                <span display class="icon" hidden>
-                    <img src="https://app.hackthebox.com/images/icons/ic-icons-kickass/ic-ranks-big2.svg">
-                    <span class="panel-classic"><br><span class="global_rank">Global Ranking: #$user_ranking$</span></span>
-                </span>
+                </div>
+                <!-- H2 END -->
 
-                <div class="panel-detailed" hidden>
+                <!-- H3 START -- DISABLED -->
+                <div class="h3 line" display>
 
                     <span display class="machines icon">
                         <img src="https://app.hackthebox.com/images/icons/ic-icons-kickass/ic-machines-big.svg"><span
-                            class="panel-classic"><span class="user_os_0_owned_machines"></span></span>
+                            class="panel-classic"><span class="user_os_0_owned_machines">2</span></span>
                     </span>
 
                     <span display class="fortress icon">
                         <img src="https://app.hackthebox.com/images/icons/ic-icons-kickass/ic-fortress-big.svg"><span
-                            class="panel-classic"><span class="user_fortresses_0_completion_percentage"></span></span>
+                            class="panel-classic"><span class="user_fortresses_0_completion_percentage">2</span></span>
                     </span>
 
                     <span display class="endgame icon">
                         <img src="https://app.hackthebox.com/images/icons/ic-icons-kickass/ic-endgame-big.svg"><span
-                            class="panel-classic"><span class="user_endgames_0_completion_percentage"></span></span>
+                            class="panel-classic"><span class="user_endgames_0_completion_percentage">2</span></span>
                     </span>
 
                     <span display class="challenges icon">
                         <img src="https://app.hackthebox.com/images/icons/ic-icons-kickass/ic-challenges-big.svg"><span
-                            class="panel-classic"><span class="user_challenge_owns_solved"></span></span>
+                            class="panel-classic"><span class="user_challenge_owns_solved">2</span></span>
                     </span>
 
                     <span display class="userblood icon">
                         <img src="https://app.hackthebox.com/images/icons/ic-machines/ic-userblood.svg"><span
-                            class="panel-classic"><span class="user_bloods"></span></span>
+                            class="panel-classic"><span class="user_bloods">2</span></span>
                     </span>
 
                     <span display class="rootblood icon">
                         <img src="https://app.hackthebox.com/images/icons/ic-machines/ic-rootblood.svg"><span
-                            class="panel-classic"><span class="system_bloods"></span></span>
+                            class="panel-classic"><span class="system_bloods">2</span></span>
                     </span>
 
                 </div>
+                <!-- H3 END -->
             </div>
-
+            <!-- HEADER-INFO END -->
         </div>
+        <!-- HEADER-CONTAINER END -->
 
-        </p>
-
-        <!-- STATS -->
-        <div class="data-font" hidden>
-
-            <p class="line" display>
-            <p>Global Ranking: <span class="user_ranking"></span></p><br>
-            <p>User Owns: <span class="user_owns"></span></p><br>
-            <p>Systems Owns: <span class="system_owns"></span></p><br>
-            <p>Global Ranking: <span class="ranking"></span></p><br>
-            <p>Team Ranking: <span class="user_team_ranking"></span></p><br>
-            <p>Team Best Rank: <span class="team_data_rank"></span></p><br>
-            </p>
-
-        </div>
+        <!-- FOOTER-CONTAINER START -->
         <div class="footer-container" display>
-            <!-- <a href="https://www.hackthebox.com" class="footer-link">hackthebox.com</a> -->
 
-            <!-- <img src="https://account.hackthebox.com/images/logos/logo-htb.svg" class="htb_logo"> -->
-            <svg class="htb_logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 176.6 33" style="enable-background:new 0 0 176.6 33;" xml:space="preserve"><script xmlns="">
-                try {
-                  Object.defineProperty(navigator, "globalPrivacyControl", {
-                    value: false,
-                    configurable: false,
-                    writable: false
-                  });
-                  document.currentScript.parentElement.removeChild(document.currentScript);
-                } catch(e) {};
-                  </script>
-            <style type="text/css">
-                .st0{fill: var(--color-primary);}
-                .st1{fill:var(--color-htb-logo);;}
-            </style>
-            <path class="st0" d="M28.5,9.3C28.5,9.3,28.5,9.3,28.5,9.3c0-0.3-0.1-0.6-0.3-0.8c0,0,0,0,0,0c0,0,0,0-0.1-0.1c0,0-0.1,0-0.1-0.1  c0,0,0,0,0,0L15.5,1.2c0,0-0.1,0-0.1,0C15.3,1,15.1,1,14.9,1c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.1,0.1-0.2,0.1L2,8.3c0,0,0,0,0,0  c0,0,0,0,0,0c0,0,0,0,0,0C1.8,8.4,1.7,8.5,1.7,8.5c0,0,0,0,0,0C1.5,8.7,1.4,9,1.4,9.3c0,0,0,0,0,0c0,0,0,0,0,0v14.3  c0,0.4,0.2,0.8,0.6,1l12.4,7.1c0,0,0,0,0.1,0c0,0,0,0,0,0c0.1,0,0.1,0.1,0.2,0.1c0,0,0,0,0,0c0.1,0,0.2,0,0.2,0c0.1,0,0.2,0,0.2,0  c0,0,0,0,0,0c0.1,0,0.1,0,0.2-0.1c0,0,0,0,0,0c0,0,0,0,0.1,0l12.4-7.1c0.4-0.2,0.6-0.6,0.6-1L28.5,9.3C28.5,9.3,28.5,9.3,28.5,9.3z   M6.3,8.8L14.7,4c0.2-0.1,0.4-0.1,0.5,0l8.4,4.9C24,9,24,9.6,23.6,9.8l-8.4,4.9c-0.2,0.1-0.4,0.1-0.5,0L6.3,9.8  C5.9,9.6,5.9,9,6.3,8.8z M13.5,27.3c0,0.4-0.4,0.7-0.8,0.5l-8.4-4.9C4.1,22.8,4,22.6,4,22.5v-9.7c0-0.4,0.4-0.7,0.8-0.5l8.4,4.9  c0.2,0.1,0.3,0.3,0.3,0.5V27.3z M25.9,22.5c0,0.2-0.1,0.4-0.3,0.5l-8.4,4.9c-0.4,0.2-0.8-0.1-0.8-0.5v-9.7c0-0.2,0.1-0.4,0.3-0.5  l8.4-4.9c0.4-0.2,0.8,0.1,0.8,0.5V22.5z"/>
-            <g>
-                <path class="st1" d="M48.2,22.5v-4.6c0-0.2-0.1-0.3-0.3-0.3h-4c-0.2,0-0.3,0.1-0.3,0.3v4.6c0,0.2-0.1,0.3-0.3,0.3h-2.4   c-0.2,0-0.3-0.1-0.3-0.3V10.7c0-0.2,0.1-0.3,0.3-0.3h2.4c0.2,0,0.3,0.1,0.3,0.3v4.1c0,0.2,0.1,0.3,0.3,0.3h4c0.2,0,0.3-0.1,0.3-0.3   v-4.1c0-0.2,0.1-0.3,0.3-0.3H51c0.2,0,0.3,0.1,0.3,0.3v11.9c0,0.2-0.1,0.3-0.3,0.3h-2.4C48.4,22.8,48.2,22.7,48.2,22.5z"/>
-                <path class="st1" d="M57.9,20.3l-0.7,2.2c0,0.1-0.2,0.2-0.3,0.2h-2.6c-0.2,0-0.3-0.2-0.3-0.4l4-11.9c0-0.1,0.2-0.2,0.3-0.2H62   c0.1,0,0.2,0.1,0.3,0.2l4,11.9c0.1,0.2-0.1,0.4-0.3,0.4h-2.6c-0.1,0-0.2-0.1-0.3-0.2l-0.7-2.2c0-0.1-0.2-0.2-0.3-0.2H58   C58.1,20.2,58,20.3,57.9,20.3z M61.5,16.8c-0.5-1.5-0.9-3-1.3-4.5l0,0c-0.4,1.5-0.8,3-1.2,4.5l-0.1,0.5c-0.1,0.2,0.1,0.4,0.3,0.4   h2.2c0.2,0,0.3-0.2,0.3-0.4L61.5,16.8z"/>
-                <path class="st1" d="M79.2,14.9h-2.6c-0.1,0-0.3-0.1-0.3-0.2c-0.2-1.2-1-1.9-2.3-1.9c-1.6,0-2.7,1.5-2.7,3.9c0,2.4,1,3.9,2.6,3.9   c1.2,0,2.1-0.7,2.3-2c0-0.1,0.1-0.2,0.3-0.2h2.6c0.2,0,0.3,0.2,0.3,0.3c-0.4,2.9-2.4,4.5-5.5,4.5c-3.6,0-5.8-2.5-5.8-6.5   s2.2-6.5,5.8-6.5c3.1,0,5.1,1.7,5.4,4.4C79.5,14.7,79.4,14.9,79.2,14.9z"/>
-                <path class="st1" d="M93.4,22.8h-3.1c-0.1,0-0.2,0-0.2-0.1L86.3,17l0,0v5.4c0,0.2-0.1,0.3-0.3,0.3h-2.4c-0.2,0-0.3-0.1-0.3-0.3   V10.7c0-0.2,0.1-0.3,0.3-0.3H86c0.2,0,0.3,0.1,0.3,0.3v5.1l0,0l3.6-5.2c0.1-0.1,0.1-0.1,0.2-0.1H93c0.2,0,0.4,0.3,0.2,0.5l-4,5.2   c-0.1,0.1-0.1,0.2,0,0.4l4.4,5.9C93.7,22.5,93.6,22.8,93.4,22.8z"/>
-                <path class="st1" d="M101.8,12.1v10.4c0,0.2-0.1,0.3-0.3,0.3h-1c-0.2,0-0.3-0.1-0.3-0.3V12.1c0-0.2-0.1-0.3-0.3-0.3h-3.7   c-0.2,0-0.3-0.1-0.3-0.3v-0.9c0-0.2,0.1-0.3,0.3-0.3h9.5c0.2,0,0.3,0.1,0.3,0.3v0.9c0,0.2-0.1,0.3-0.3,0.3H102   C101.9,11.8,101.8,11.9,101.8,12.1z"/>
-                <path class="st1" d="M117.3,22.5v-5.2c0-0.2-0.1-0.3-0.3-0.3h-5.8c-0.2,0-0.3,0.1-0.3,0.3v5.2c0,0.2-0.1,0.3-0.3,0.3h-1   c-0.2,0-0.3-0.1-0.3-0.3V10.7c0-0.2,0.1-0.3,0.3-0.3h1c0.2,0,0.3,0.1,0.3,0.3v4.7c0,0.2,0.1,0.3,0.3,0.3h5.8c0.2,0,0.3-0.1,0.3-0.3   v-4.7c0-0.2,0.1-0.3,0.3-0.3h1c0.2,0,0.3,0.1,0.3,0.3v11.9c0,0.2-0.1,0.3-0.3,0.3h-1C117.4,22.8,117.3,22.7,117.3,22.5z"/>
-                <path class="st1" d="M125.5,12.1v3.3c0,0.2,0.1,0.3,0.3,0.3h5.5c0.2,0,0.3,0.1,0.3,0.3v0.8c0,0.2-0.1,0.3-0.3,0.3h-5.5   c-0.2,0-0.3,0.1-0.3,0.3V21c0,0.2,0.1,0.3,0.3,0.3h6c0.2,0,0.3,0.1,0.3,0.3v0.9c0,0.2-0.1,0.3-0.3,0.3h-7.6c-0.2,0-0.3-0.1-0.3-0.3   V10.7c0-0.2,0.1-0.3,0.3-0.3h7.4c0.2,0,0.3,0.1,0.3,0.3v0.9c0,0.2-0.1,0.3-0.3,0.3h-5.8C125.7,11.8,125.5,11.9,125.5,12.1z"/>
-                <path class="st1" d="M141,10.4c3.1,0,4.5,1.3,4.5,3.2c0,1.5-0.7,2.3-2.1,2.8l0,0c1.6,0.4,2.4,1.3,2.4,2.9c0,2.1-1.7,3.5-4.5,3.5   h-4.9c-0.2,0-0.3-0.1-0.3-0.3V10.7c0-0.2,0.1-0.3,0.3-0.3H141z M139.1,15.1c0,0.2,0.1,0.3,0.3,0.3h1.3c1.3,0,1.9-0.4,1.9-1.4   s-0.6-1.3-1.8-1.3h-1.4c-0.2,0-0.3,0.1-0.3,0.3V15.1z M139.1,20.2c0,0.2,0.1,0.3,0.3,0.3h1.4c1.4,0,2-0.4,2-1.4s-0.6-1.5-2-1.5   h-1.3c-0.2,0-0.3,0.1-0.3,0.3L139.1,20.2L139.1,20.2z"/>
-                <path class="st1" d="M160.8,16.5c0,4-2.3,6.5-6,6.5s-6-2.5-6-6.5s2.3-6.5,6-6.5C158.4,10.1,160.8,12.6,160.8,16.5z M151.9,16.5   c0,2.4,1,3.9,2.9,3.9c1.8,0,2.8-1.4,2.8-3.9s-1-3.9-2.8-3.9C152.9,12.7,151.9,14.2,151.9,16.5z"/>
-                <path class="st1" d="M173.4,22.8h-2.9c-0.1,0-0.2-0.1-0.3-0.2l-2.2-4.1l0,0l-2.2,4.1c-0.1,0.1-0.1,0.2-0.3,0.2h-2.9   c-0.2,0-0.4-0.2-0.2-0.4l3.5-5.8c0.1-0.1,0.1-0.2,0-0.3l-3.3-5.5c-0.1-0.2,0-0.4,0.2-0.4h2.8c0.1,0,0.2,0.1,0.3,0.2l2,4l0,0l2-4   c0-0.1,0.2-0.2,0.3-0.2h2.8c0.2,0,0.4,0.2,0.2,0.4l-3.3,5.5c-0.1,0.1-0.1,0.2,0,0.3l3.5,5.8C173.8,22.5,173.7,22.8,173.4,22.8z"/>
-            </g>
-            </svg>
-            <div class="footer-font" display>
-                <!-- <span>These metrics include private contributions</span><br> -->
-                <!-- <span display class="icon" hidden>
-                    <img src="https://app.hackthebox.com/images/icons/ic-icons-kickass/ic-ranks-big2.svg" style="width: auto; height: 30px;" class="global_rank">
-                    <span class="panel-classic"><span class="global_rank">Global Ranking: #879</span></span>
-                </span> -->
-                <span display class="icon" display>
-                    <span class="panel-classic"><span class="global_rank">Global Ranking: #$user_ranking$</span></span>
-                </span>
+            <span display class="htb_logo">
+                <img src="https://account.hackthebox.com/images/logos/logo-htb.svg">
+            </span>
 
+            <!-- DATA-FONT START -- DISABLED -->
+            <div class="data-font" hidden>
+
+                <p class="line" display>
+                <p>Global Ranking: <span class="user_ranking"></span></p><br>
+                <p>User Owns: <span class="user_owns"></span></p><br>
+                <p>Systems Owns: <span class="system_owns"></span></p><br>
+                <p>Global Ranking: <span class="ranking"></span></p><br>
+                <p>Team Ranking: <span class="user_team_ranking"></span></p><br>
+                <p>Team Best Rank: <span class="team_data_rank"></span></p><br>
+                </p>
             </div>
+            <!-- DATA-FONT END-->
+
+            <div class="footer-font" display>
+                <span display class="globalrank icon">
+                    <img src="https://app.hackthebox.com/images/icons/ic-icons-kickass/ic-ranks-big2.svg">
+                    <span class="panel-classic"><span class="ranking">Global Rank: #$user_ranking$</span></span>
+                </span>
+            </div>
+
         </div>
+        <!-- FOOTER-CONTAINER END -->
     </div>
-</div>
+    <!-- BODY-BADGE START -->
+
+    <!-- FOOTER-OUTER START -->
+    <span display class="footer-outer">
+        <span class="metrics-info">
+            <a>Last activity: $last_activity$ | Last updated: $last_update$ using
+            <a style="text-decoration: none; color: var(--black)" href="https://github.com/yonasuriv">yonasuriv</a>
+            <a style="text-decoration: none; color: var(--black)" href="https://github.com/yonasuriv/">HTB Metrics</a>.
+    </span>
+    <!-- FOOTER OUTER END -->
+
+    <!-- Place the script here -->
+    <script src="assets/js/userdata.js"></script>
+
 </body>
-<div class="footer-container-out" display>
-    <span class="footer-out" display>Last activity: $last_activity$</span> <span class="footer-out" display>| Last updated: $last_update$</span>
-</div>
 
 </html>

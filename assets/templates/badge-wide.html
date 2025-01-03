@@ -17,18 +17,25 @@
         --red3: rgba(255, 37, 72, 0.1);
         --blue1: #3498db;
         --blue2: #56C0E0;
+        --blue-htb: #111927;
         --green1: #2ecc71;
-        --green2: #9cef00;
+        --green-htb: #9cef00;
         --green3: #9acc14;
         --orange1: #f7af3e;
         --grey1: #a4b1cd;
-        --black2: #353535;
+        --grey2: #353535;
+        --grey3: rgb(124, 124, 124);
         --white1: #ffffff;
         --white2: #f5f5f5;
         --black1: #000000;
-        --badge-min-width: 900px;
-        --avatar-size: 200px;
-        
+        --badge-min-width: 700px;
+        --avatar-size: 200px; 
+
+        --color-primary: var(--green-htb);
+        --color-secondary: var(--grey1);
+        --color-background: var(--blue-htb);
+        --color-mute: var(--grey3);
+        --color-htb-logo: var(--white2);
     }
 
     body {
@@ -38,10 +45,10 @@
 
     .badge {
         min-width: var(--badge-min-width);
-        min-height: 270px;
+        min-height: 200px;
         padding: 20px;
         height: auto;
-        background-color: #111927;
+        background-color: var(--color-background);
         border-radius: 28px;
         text-align: center;
         gap: 0px;
@@ -64,7 +71,7 @@
         height: auto;
         margin-right: 25px;
         border-radius: 50%;
-        border: 5px dashed var(--green2);
+        border: 5px dashed var(--color-primary);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -87,11 +94,11 @@
     }
 
     .user_name {
-        color: var(--grey1);
+        color: var(--color-secondary);
     }
 
     .user_rank {
-        color: var(--green2);
+        color: var(--color-primary);
         text-transform: uppercase;
         font-size: 38px;
         line-height: 90px;
@@ -104,7 +111,7 @@
     }
 
     .header-font {
-        color: #ffffff;
+        color: var(--color-text);
         font-size: 48px;
         font-weight: bold;
         padding-left: 20px;
@@ -115,7 +122,7 @@
     }
 
     .data-font {
-        color: #ffffff;
+        color: var(--color-text);
         font-size: 55px;
         line-height: 0px;
         padding-left: 35px;
@@ -158,12 +165,12 @@
     .footer-font {
         font-size: 20px;
         line-height: 34px;
-        color: var(--grey1);
+        color: var(--color-secondary);
         padding-left: 10px;
     }
 
     .footer-out {
-        color: rgb(124, 124, 124);
+        color: var(--color-mute);
         font-size: 20px;
         line-height: 34px;
         align-content: center;
@@ -190,19 +197,19 @@
     }
 
     .footer-link {
-        color: var(--green3);
+        color: var(--color-primary);
         font-size: 0.6em;
         text-decoration: none;
     }
 
     .footer-link:hover {
-        color: var(--green3);
+        color: var(--color-primary);
         font-size: 0.6em;
         text-decoration: underline;
     }
 
     .footer-link:visited {
-        color: var(--green3);
+        color: var(--color-primary);
     }
 
     .htb_logo {
@@ -246,7 +253,7 @@
 
                 <span display class="userflag icon">
                     <img src="https://app.hackthebox.com/images/icons/ic-machines/ic-userflag.svg"><span
-                        class="panel-classic"><span class="user_owns">$user_owns$</span></span>
+                        class="panel-classic">$user_owns$</span></span>
                 </span>
 
                 <span display class="rootflag icon">
@@ -340,8 +347,8 @@
                 } catch(e) {};
                   </script>
             <style type="text/css">
-                .st0{fill:#9FEF00;}
-                .st1{fill:#f5f5f5;}
+                .st0{fill: var(--color-primary);}
+                .st1{fill:var(--color-htb-logo);;}
             </style>
             <path class="st0" d="M28.5,9.3C28.5,9.3,28.5,9.3,28.5,9.3c0-0.3-0.1-0.6-0.3-0.8c0,0,0,0,0,0c0,0,0,0-0.1-0.1c0,0-0.1,0-0.1-0.1  c0,0,0,0,0,0L15.5,1.2c0,0-0.1,0-0.1,0C15.3,1,15.1,1,14.9,1c-0.1,0-0.2,0-0.3,0.1c-0.1,0-0.1,0.1-0.2,0.1L2,8.3c0,0,0,0,0,0  c0,0,0,0,0,0c0,0,0,0,0,0C1.8,8.4,1.7,8.5,1.7,8.5c0,0,0,0,0,0C1.5,8.7,1.4,9,1.4,9.3c0,0,0,0,0,0c0,0,0,0,0,0v14.3  c0,0.4,0.2,0.8,0.6,1l12.4,7.1c0,0,0,0,0.1,0c0,0,0,0,0,0c0.1,0,0.1,0.1,0.2,0.1c0,0,0,0,0,0c0.1,0,0.2,0,0.2,0c0.1,0,0.2,0,0.2,0  c0,0,0,0,0,0c0.1,0,0.1,0,0.2-0.1c0,0,0,0,0,0c0,0,0,0,0.1,0l12.4-7.1c0.4-0.2,0.6-0.6,0.6-1L28.5,9.3C28.5,9.3,28.5,9.3,28.5,9.3z   M6.3,8.8L14.7,4c0.2-0.1,0.4-0.1,0.5,0l8.4,4.9C24,9,24,9.6,23.6,9.8l-8.4,4.9c-0.2,0.1-0.4,0.1-0.5,0L6.3,9.8  C5.9,9.6,5.9,9,6.3,8.8z M13.5,27.3c0,0.4-0.4,0.7-0.8,0.5l-8.4-4.9C4.1,22.8,4,22.6,4,22.5v-9.7c0-0.4,0.4-0.7,0.8-0.5l8.4,4.9  c0.2,0.1,0.3,0.3,0.3,0.5V27.3z M25.9,22.5c0,0.2-0.1,0.4-0.3,0.5l-8.4,4.9c-0.4,0.2-0.8-0.1-0.8-0.5v-9.7c0-0.2,0.1-0.4,0.3-0.5  l8.4-4.9c0.4-0.2,0.8,0.1,0.8,0.5V22.5z"/>
             <g>
