@@ -1,4 +1,4 @@
-# HTB Metrics Badge
+# HTB Metrics Badge Generator
 
 Currently in the alpha stage. Keep an eye out for upcoming templates and updates, or contribute to the development!
 
